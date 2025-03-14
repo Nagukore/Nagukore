@@ -58,9 +58,11 @@
 
 ---
 
-### 🌟 Featured Projects
+### 🌟 Completed projects
 
-- 🚀 **[Virtual Mouse with Hand Gestures](https://github.com/your-repo-link)** | *AI-powered virtual mouse project using OpenCV*  
+ 🚀 <a href="https://github.com/your-repo-link" target="_blank">Virtual Mouse with Hand Gestures</a> | *AI-powered virtual mouse using OpenCV,mediapipe,PyAutoGUI*  
+ it is a collaborative project with my friends 
+### 🌟 Featured Projects  
 - 🛰️ **[AI-Powered Waste Identification](https://github.com/your-repo-link)** | *Smart cleanup drones using AI & swarm intelligence*    
 
 ---
