@@ -43,6 +43,7 @@
 ![Excel](https://img.shields.io/badge/Microsoft%20Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)  
 ---
 
+<!--
 ### 📊 GitHub Stats  
 
 <table>
@@ -57,7 +58,7 @@
 </table>
 
 ---
-
+-->
 ### 🌟 Completed projects
 
  🚀 <a href="https://github.com/Nagukore/VIRTUAL-AI-MOUSE" target="_blank">Virtual Mouse with Hand Gestures</a> | *AI-powered virtual mouse using OpenCV,mediapipe,PyAutoGUI*  
