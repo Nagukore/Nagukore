@@ -1,7 +1,7 @@
 <h1 align="center">Hi there, I'm Nagesh</h1>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?color=%2336BCF7&center=true&vCenter=true&lines=Web+Developer;AI+Enthusiast;Hackathon+Participant;Open-Source+Contributor" />
+  <img src="https://readme-typing-svg.herokuapp.com?color=%2336BCF7&center=true&vCenter=true&lines=Web+Developer;AI+Enthusiast;Open-to-work" />
 </p>
 
 ---
@@ -9,7 +9,8 @@
 ### 🚀 About Me
 - 💻 Passionate **Web Developer** & AI Enthusiast 🤖   
 - 🔍 Exploring **full-stack web development** & **machine learning**  
-- 📫 Reach me: [LinkedIn](https://www.linkedin.com/in/nagesh-kore-7566b6254?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app) | [Instagram](https://www.instagram.com/the.nagesh?igsh=MTl4eDd4M2lvZDI1ZQ==)
+- 📫 Reach me: <a href="https://www.linkedin.com/in/nagesh-kore-7566b6254?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">LinkedIn</a> | <a href="https://www.instagram.com/the.nagesh?igsh=MTl4eDd4M2lvZDI1ZQ==" target="_blank">Instagram</a>
+
 
 ---
 
@@ -60,15 +61,18 @@
 ### 🌟 Featured Projects
 
 - 🚀 **[Virtual Mouse with Hand Gestures](https://github.com/your-repo-link)** | *AI-powered virtual mouse project using OpenCV*  
-- 🛰️ **[AI-Powered Waste Identification](https://github.com/your-repo-link)** | *Smart cleanup drones using AI & swarm intelligence*  
-- 🌍 **[Portfolio Website](https://your-portfolio-link)** | *Showcasing my projects & skills*  
+- 🛰️ **[AI-Powered Waste Identification](https://github.com/your-repo-link)** | *Smart cleanup drones using AI & swarm intelligence*    
 
 ---
 
 ### 📢 Connect with Me
 
-https://www.linkedin.com/in/nagesh-kore-7566b6254?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app
-[![Instagram]([https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/your-handle](https://www.instagram.com/the.nagesh?igsh=MTl4eDd4M2lvZDI1ZQ==)) 
+<a href="https://www.linkedin.com/in/nagesh-kore-7566b6254?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">
+  <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
+</a> 
+<a href="https://www.instagram.com/the.nagesh?igsh=MTl4eDd4M2lvZDI1ZQ==">
+  <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" />
+</a>
 
 ---
 
