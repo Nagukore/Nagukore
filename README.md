@@ -63,7 +63,7 @@
 
  🚀 <a href="https://github.com/Nagukore/VIRTUAL-AI-MOUSE" target="_blank">Virtual Mouse with Hand Gestures</a> | *AI-powered virtual mouse using OpenCV,mediapipe,PyAutoGUI*  
  it is a collaborative project with my friends 
-### 🌟 Featured Projects  
+### 🌟 Future Projects  
 - 🛰️ **[AI-Powered Waste Identification](https://github.com/your-repo-link)** | *Smart cleanup drones using AI & swarm intelligence*    
 
 ---
