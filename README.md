@@ -75,15 +75,15 @@ I am a results-driven **Full-Stack Web Developer and AI/ML Enthusiast** focused 
 
 ---
 
-## 🧩 Projects Portfolio (Highlights)
+## 🧩 Projects Portfolio
 
-| Project | Description |
-|--------|-------------|
-| **FOSYS — AI-Powered Workspace Platform** | RBAC dashboards, PR automation, realtime sync, AI-task extraction, webhook integrations |
-| **Clinichealthtree — Full-Stack Healthcare Platform** | Appointments, dashboards, secure workflows, database-integrated APIs |
-| **SS Clinic Website (Live)** | Production site with chatbot navigation & Gemini-assisted mode |
-| **AI Workspace Sandbox** | CV, NLP, ML & automation experimentation environment |
-| **Virtual Mouse (Gesture-Controlled)** | MediaPipe + OpenCV gesture-interaction project |
+| Project | Description | Core Tech Stack | Status / Link |
+|--------|------------|----------------|--------------|
+| **FOSYS — AI-Powered Workspace Platform (Flagship)** | Full-stack RBAC platform with **role-based dashboards, task automation, PR lifecycle workflows, AI-assisted meeting transcription → task extraction, Supabase-Realtime sync, and webhook-based integrations**. Designed for **workflow automation and engineering productivity systems**. | React • Supabase • Prisma • FastAPI • PostgreSQL • Webhooks • Realtime | 🔧 *Private / In-Progress* |
+| **SS Clinic Website** | Production-deployed website with **custom chatbot navigation, offline chatbot mode, Gemini-powered assistance, and API-based workflows** for patient interaction and navigation guidance. | HTML • CSS • JavaScript • APIs • Chatbot System | 🌐 https://ssclinickudlu.com |
+| **AI Workspace — Applied AI Sandbox** | Multi-framework experimentation environment for **Computer Vision, NLP, ML pipelines, gesture-control systems, and automation utilities**. Built for **rapid prototyping and research-driven feature validation**. | Python • OpenCV • TensorFlow • Keras • MediaPipe • NLTK • Pandas | 🔗 *Repository Publishing Soon* |
+| **Virtual Mouse (Gesture-Controlled)** | Contactless AI gesture-based mouse built using **MediaPipe + OpenCV + PyAutoGUI**, enabling **hand-tracking-based interaction without hardware devices** — collaborative applied-AI project. | Python • MediaPipe • OpenCV • PyAutoGUI | 🔗 https://github.com/Nagukore/VIRTUAL-AI-MOUSE |
+
 
 ---
 
