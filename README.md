@@ -8,11 +8,11 @@
 
 ### 🚀 About Me  
 
-I am a passionate **Web Developer and AI/ML Enthusiast** focused on building practical, real-world digital solutions. My work spans **frontend engineering, AI-enabled applications, APIs, and scalable web systems**.  
+I am a passionate **Web Developer and AI/ML Enthusiast** focused on building practical, real-world digital solutions. My work spans **frontend engineering, AI-powered applications, APIs, and scalable web systems**.
 
-- 🔭 Currently working on **Clinichealthtree — a Full-Stack Healthcare Platform**  
-- 🎯 Exploring **React, Supabase (PostgreSQL), and AI-assisted systems**  
-- 🤖 Built and deployed **chatbot-enabled applications** for real users  
+- 🔭 Currently building **Clinichealthtree — a Full-Stack Healthcare Platform**  
+- 🎯 Working with **React, Supabase (PostgreSQL), APIs, and AI integrations**  
+- 🤖 Developed and deployed **chatbot-enabled applications** for real users  
 - 🤝 Open to **internships, collaborations, and full-stack projects**  
 
 ---
@@ -39,10 +39,23 @@ I am a passionate **Web Developer and AI/ML Enthusiast** focused on building pra
 ![SQL](https://img.shields.io/badge/SQL-2F74C0?style=for-the-badge&logo=database&logoColor=white)
 ![API](https://img.shields.io/badge/API%20Development-000000?style=for-the-badge&logo=fastapi&logoColor=white)
 
-**🤖 AI / ML & Data Tools**  
+---
+
+## 🤖 AI / ML & Data Tools (Expanded)
+
 ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
+![Keras](https://img.shields.io/badge/Keras-D00000?style=for-the-badge&logo=keras&logoColor=white)
+![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
+![Mediapipe](https://img.shields.io/badge/MediaPipe-FF6F00?style=for-the-badge)
+![NLTK](https://img.shields.io/badge/NLP-NLTK-4B8BBE?style=for-the-badge)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge)
+![Seaborn](https://img.shields.io/badge/Seaborn-4C72B0?style=for-the-badge)
 ![Gemini](https://img.shields.io/badge/Gemini%20AI-4285F4?style=for-the-badge&logo=google&logoColor=white)
+![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
+![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
 ![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
 ![Excel](https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white)
 
@@ -52,10 +65,10 @@ I am a passionate **Web Developer and AI/ML Enthusiast** focused on building pra
 
 | Project | Description | Tech Stack | Repository / Demo |
 |--------|------------|-----------|------------------|
-| **Clinichealthtree (Full-Stack Healthcare Platform)** | End-to-end clinic management system with appointments, authentication, dashboards and database integration. Currently under active development. | ![React](https://img.shields.io/badge/React-61dbfb?style=flat&logo=react&logoColor=black) ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=flat&logo=supabase&logoColor=black) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=flat&logo=postgresql&logoColor=white) ![API](https://img.shields.io/badge/API-000?style=flat&logo=fastapi&logoColor=white) | 🔗 *Private / In-Progress* |
-| **SS Clinic Website** ![Live](https://img.shields.io/badge/Status-Live%20Production-2ecc71?style=flat&logo=google-chrome&logoColor=white) | Live production website with responsive UI, custom chatbot navigation, and API-driven workflows. Supports **offline chatbot mode** and **Gemini-powered smart assistance**. | ![HTML](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white) ![CSS](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7E01D?style=flat&logo=javascript&logoColor=black) ![API](https://img.shields.io/badge/API-000000?style=flat&logo=fastapi&logoColor=white) | 🌐 **Live:** https://ssclinickudlu.com |
-| **AI Workspace** | Experimental AI utility environment for gesture control, CV modules, and automation experiments. | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white) ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat&logo=opencv&logoColor=white) ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat&logo=tensorflow&logoColor=white) | 🔗 *Repo Coming Soon* |
-| **Virtual Mouse with Hand Gestures** | Contactless gesture-based virtual mouse using MediaPipe, OpenCV and PyAutoGUI — team project. | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white) ![MediaPipe](https://img.shields.io/badge/MediaPipe-FF6F00?style=flat) ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat&logo=opencv&logoColor=white) | 🔗 https://github.com/Nagukore/VIRTUAL-AI-MOUSE |
+| **Clinichealthtree (Full-Stack Healthcare Platform)** | End-to-end clinic management system with appointments, authentication, dashboards, and database integration. Currently under active development. | ![React](https://img.shields.io/badge/React-61dbfb?style=flat&logo=react&logoColor=black) ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=flat&logo=supabase&logoColor=black) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=flat&logo=postgresql&logoColor=white) ![API](https://img.shields.io/badge/API-000?style=flat&logo=fastapi&logoColor=white) | 🔗 *Private / In-Progress* |
+| **SS Clinic Website** ![Live](https://img.shields.io/badge/Status-Live%20Production-2ecc71?style=flat&logo=google-chrome&logoColor=white) | Live production website with responsive UI, **custom chatbot navigation**, and API-driven workflows. Supports **offline chatbot mode** and **Gemini-powered smart assistance**. | ![HTML](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white) ![CSS](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7E01D?style=flat&logo=javascript&logoColor=black) ![API](https://img.shields.io/badge/API-000000?style=flat&logo=fastapi&logoColor=white) | 🌐 **Live:** https://ssclinickudlu.com |
+| **AI Workspace** | Multi-framework experimentation environment for AI automation, CV modules, ML workflows, NLP, and gesture-control systems. Built using **OpenCV, TensorFlow/Keras, Scikit-Learn, MediaPipe, NLTK, automation & prototyping pipelines**. | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white) ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat&logo=opencv&logoColor=white) ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat&logo=tensorflow&logoColor=white) ![Keras](https://img.shields.io/badge/Keras-D00000?style=flat&logo=keras&logoColor=white) ![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=flat&logo=scikit-learn&logoColor=white) ![MediaPipe](https://img.shields.io/badge/MediaPipe-FF6F00?style=flat) ![NLTK](https://img.shields.io/badge/NLP-NLTK-blue?style=flat) | 🔗 *Repo Coming Soon* |
+| **Virtual Mouse with Hand Gestures** | Contactless gesture-based virtual mouse using MediaPipe, OpenCV and PyAutoGUI — collaborative academic project. | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white) ![MediaPipe](https://img.shields.io/badge/MediaPipe-FF6F00?style=flat) ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat&logo=opencv&logoColor=white) | 🔗 https://github.com/Nagukore/VIRTUAL-AI-MOUSE |
 
 ---
 
@@ -66,13 +79,13 @@ The clinic needed a reliable web platform with guided navigation to help patient
 
 **Solution**  
 Developed a responsive website and implemented a **dual-mode chatbot system**:  
-- 🔹 **Offline chatbot mode** for structured navigation  
+- 🔹 **Offline chatbot mode** for structured guidance  
 - 🔹 **Gemini AI mode** for contextual assistance  
-Integrated **API-based workflows** to enable extensibility and maintainability.
+Integrated **API-based workflows** for scalability and extensibility.
 
 **Outcome**  
 - 🚀 Successfully deployed at **ssclinickudlu.com**  
-- 🤖 Chatbot improves user engagement & accessibility  
+- 🤖 Chatbot improves user engagement & navigation  
 - 📱 Fully responsive across devices  
 - ⚡ Lightweight, reliable, and production-ready  
 
