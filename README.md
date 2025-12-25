@@ -49,12 +49,15 @@ I am a passionate **Web Developer and AI Enthusiast** with a strong interest in 
 
 ## 🧩 Projects Portfolio
 
+## 🧩 Projects Portfolio
+
 | Project | Description | Tech Stack | Repository / Demo |
 |--------|------------|-----------|------------------|
 | **Clinichealthtree (Full-Stack Healthcare Platform)** | A comprehensive clinic management system with appointment scheduling, patient records, secure authentication, and admin workflows. Currently under development. | ![React](https://img.shields.io/badge/React-61DBFB?style=flat&logo=react&logoColor=black) ![Node](https://img.shields.io/badge/Node.js-339933?style=flat&logo=node.js&logoColor=white) ![Express](https://img.shields.io/badge/Express-000000?style=flat&logo=express&logoColor=white) ![SQL](https://img.shields.io/badge/SQL-336791?style=flat&logo=postgresql&logoColor=white) ![EmailJS](https://img.shields.io/badge/EmailJS-FFBE00?style=flat) | 🔗 *Private / In-Progress* |
-| **SS Clinic Website** | Responsive clinic website featuring doctor profiles and appointment booking UI, designed for real-world deployment. | ![HTML](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white) ![CSS](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7E01D?style=flat&logo=javascript&logoColor=black) | 🔗 *Will publish soon* |
+| **SS Clinic Website (Live Deployment)** | Production-ready clinic website with doctor profiles, patient-centric UI, and appointment interaction modules. Developed for real-world use. | ![HTML](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white) ![CSS](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7E01D?style=flat&logo=javascript&logoColor=black) | 🌐 **Live:** https://ssclinickudlu.com |
 | **AI Workspace** | Experimental environment for AI utilities including gesture control modules, computer vision experiments, and automation workflows. | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white) ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat&logo=opencv&logoColor=white) ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat&logo=tensorflow&logoColor=white) | 🔗 *Repo Coming Soon* |
 | **Virtual Mouse with Hand Gestures** | Contactless gesture-controlled virtual mouse built using MediaPipe, OpenCV and PyAutoGUI — collaborative academic project. | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white) ![MediaPipe](https://img.shields.io/badge/MediaPipe-FF6F00?style=flat) ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat&logo=opencv&logoColor=white) | 🔗 https://github.com/Nagukore/VIRTUAL-AI-MOUSE |
+
 
 
 ---
