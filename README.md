@@ -26,9 +26,17 @@ I am a results-driven **Full-Stack Web Developer and AI/ML Enthusiast** focused 
   RBAC dashboards, PR-workflow automation, Supabase-Realtime sync,  
   AI meeting transcription → task extraction, and webhook integrations
 
-- 🏥 **Clinichealthtree — Full-Stack Healthcare Platform**  
+- 🏥 **Clinichealthtree — Full-Stack Healthcare Platform (Core System)**  
   Authentication, appointments, dashboards, secure patient workflows,  
   and database-driven APIs using **React + Supabase + PostgreSQL**
+
+- 🌐 **Clinichealthtree Website (Production Frontend)**  
+  Live, patient-facing website with chatbot navigation, offline mode,  
+  and AI-assisted guidance for clinic visitors
+
+- 🧠 **Enterprise RAG System (Retrieval-Augmented Generation)**  
+  Document ingestion, vector embeddings, semantic search,  
+  and AI-powered knowledge retrieval over structured & unstructured data
 
 - 🤖 **AI-Workspace / Experimental Sandbox**  
   CV, NLP, ML, gesture-control & automation prototypes
@@ -79,12 +87,11 @@ I am a results-driven **Full-Stack Web Developer and AI/ML Enthusiast** focused 
 
 | Project | Description | Core Tech Stack | Status / Link |
 |--------|------------|----------------|--------------|
-| **FOSYS — AI-Powered Workspace Platform (Flagship)** | Full-stack RBAC platform with **role-based dashboards, task automation, PR lifecycle workflows, AI-based meeting transcription → task extraction, Supabase-Realtime sync, and webhook-driven integrations**. Built for **workflow automation and engineering productivity systems**. | React • Supabase • Prisma • FastAPI • PostgreSQL • Webhooks • Realtime | 🔧 *Private / In-Progress* |
-| **Clinichealthtree — Full-Stack Healthcare Platform** | End-to-end **clinic management & patient workflow system** with authentication, appointments, dashboards, secure data flows, and **database-integrated APIs**. Designed as a **scalable healthcare SaaS-style platform** using modern full-stack architecture. | React • Supabase (PostgreSQL) • APIs • Authentication • State Management | 🔗 *Private / Development Build* |
-| **SS Clinic Website** ![Live](https://img.shields.io/badge/Live-Production-2ecc71?style=flat) | Production-deployed website with **custom chatbot navigation, offline mode, Gemini-powered guidance, and API-based workflows** for patient interaction and navigation support. | HTML • CSS • JavaScript • APIs • Chatbot System | 🌐 https://ssclinickudlu.com |
-| **Virtual Mouse (Gesture-Controlled)** | Contactless AI-gesture mouse built using **MediaPipe + OpenCV + PyAutoGUI**, enabling **hand-tracking-based interaction without external hardware** — collaborative applied-AI project. | Python • MediaPipe • OpenCV • PyAutoGUI | 🔗 https://github.com/Nagukore/VIRTUAL-AI-MOUSE |
-
-
+| **FOSYS — AI-Powered Workspace Platform (Flagship)** | Full-stack RBAC platform with **role-based dashboards, task automation, PR lifecycle workflows, AI-based meeting transcription → task extraction, Supabase-Realtime sync, and webhook-driven integrations**. | React • Supabase • Prisma • FastAPI • PostgreSQL • Webhooks • Realtime | 🔧 *Private / In-Progress* |
+| **Clinichealthtree — Full-Stack Healthcare Platform (Core System)** | End-to-end **clinic management & patient workflow system** with authentication, appointments, dashboards, secure data flows, and **database-integrated APIs**. | React • Supabase (PostgreSQL) • APIs • Authentication | 🔗 *Private / Development Build* |
+| **Clinichealthtree Website (Production)** | Public-facing clinic website with **custom chatbot navigation, offline mode, Gemini-powered guidance, and API-based workflows** for patient interaction. | HTML • CSS • JavaScript • APIs • Chatbot | 🌐 https://ssclinickudlu.com |
+| **Enterprise RAG System (Retrieval-Augmented Generation)** | Document ingestion pipeline, vector embeddings, semantic search, and AI-powered Q&A over internal knowledge bases. | Python • FastAPI • Vector DB • Embeddings • NLP | 🔗 https://github.com/Nagukore/enterprise-rag-system |
+| **Virtual Mouse (Gesture-Controlled)** | Contactless AI-gesture mouse using **MediaPipe + OpenCV + PyAutoGUI**, enabling hand-tracking interaction without hardware. | Python • MediaPipe • OpenCV • PyAutoGUI | 🔗 https://github.com/Nagukore/VIRTUAL-AI-MOUSE |
 
 ---
 
