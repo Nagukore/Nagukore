@@ -27,13 +27,15 @@ I am a results-driven **Full-Stack Web Developer and AI/ML Enthusiast** focused 
    RBAC dashboards, PR-workflow automation, Supabase-Realtime sync
   
 - 🏥 **Clinichealthtree — Full-Stack Healthcare Platform (Core System)**  
-  Authentication, appointments, dashboards, secure patient workflows,  
-  and database-driven APIs using **React + Supabase + PostgreSQL**
+  End-to-end clinic management and patient workflow system featuring authentication,  
+  appointment management, role-based dashboards, secure data flows, and  
+  database-integrated APIs built on React and Supabase (PostgreSQL).
 
 - 🌐 **SS Clinic Website (Production Frontend)**  
-  Production-grade clinic website featuring chatbot-based navigation, offline mode, and  
-  AI-assisted patient guidance, tightly integrated with the SS Clinic full-stack backend for  
-  appointment booking, scheduling, and API-driven workflows.
+  Live, patient-facing clinic website with custom chatbot navigation, offline mode,  
+  and AI-assisted guidance for visitors, integrated with the SS Clinic backend for  
+  appointments, doctor availability, and API-driven workflows.  
+  🌐 https://www.ssclinickudlu.com
 
 - 🧠 **Enterprise RAG System (Retrieval-Augmented Generation)**  
   Document ingestion, vector embeddings, semantic search,  
