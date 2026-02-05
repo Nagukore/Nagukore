@@ -30,9 +30,10 @@ I am a results-driven **Full-Stack Web Developer and AI/ML Enthusiast** focused 
   Authentication, appointments, dashboards, secure patient workflows,  
   and database-driven APIs using **React + Supabase + PostgreSQL**
 
-- 🌐 **Clinichealthtree Website (Production Frontend)**  
-  Live, patient-facing website with chatbot navigation, offline mode,  
-  and AI-assisted guidance for clinic visitors
+- 🌐 **SS Clinic Website (Production Frontend)**  
+  Production-grade clinic website featuring chatbot-based navigation, offline mode, and  
+  AI-assisted patient guidance, tightly integrated with the SS Clinic full-stack backend for  
+  appointment booking, scheduling, and API-driven workflows.
 
 - 🧠 **Enterprise RAG System (Retrieval-Augmented Generation)**  
   Document ingestion, vector embeddings, semantic search,  
