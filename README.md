@@ -23,7 +23,7 @@ I am a results-driven **Full-Stack Web Developer and AI/ML Enthusiast** focused 
 ### 🔥 What I’m Working On
 
 - 🔭 **FOSYS — AI-Powered Workspace & Task Automation Platform**  
-   AI meeting transcription → task extraction, and webhook integrations,
+   AI meeting transcription → task extraction, and webhook integrations,  
    RBAC dashboards, PR-workflow automation, Supabase-Realtime sync
   
 - 🏥 **Clinichealthtree — Full-Stack Healthcare Platform (Core System)**  
