@@ -29,7 +29,7 @@ I am a results-driven **Full-Stack Web Developer and AI/ML Enthusiast** focused 
 - 🏥 **Clinichealthtree — Full-Stack Healthcare Platform (Core System)**  
   End-to-end clinic management and patient workflow system featuring authentication,  
   appointment management, role-based dashboards, secure data flows, and  
-  database-integrated APIs built on React and Supabase (PostgreSQL).
+  database-integrated APIs built on React and Supabase (PostgreSQL).  
   🌐 https://www.cliniquehealthtree.com
 
 - 🌐 **SS Clinic Website (Production Frontend)**  
