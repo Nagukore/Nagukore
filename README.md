@@ -9,7 +9,7 @@
 ╚═╝  ╚═══╝╚═╝  ╚═╝ ╚═════╝ ╚══════╝╚══════╝╚═╝  ╚═╝
 ```
 
-<img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=700&size=18&pause=1000&color=36BCF7&center=true&vCenter=true&width=640&lines=Full-Stack+Engineer+%26+AI+Systems+Builder;Turning+Complex+Problems+into+Production+Systems;React+%C2%B7+Supabase+%C2%B7+FastAPI+%C2%B7+Prisma+%C2%B7+Qdrant;3+Live+Products+%C2%B7+Best+Paper+%C2%B7+IC-AISMART+2025" alt="Typing SVG" />
+<img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=700&size=18&pause=1000&color=36BCF7&center=true&vCenter=true&width=680&lines=Full-Stack+Engineer+%26+AI+Systems+Builder;Turning+Complex+Problems+into+Production+Systems;React+%C2%B7+Supabase+%C2%B7+FastAPI+%C2%B7+Prisma+%C2%B7+Qdrant;3+Live+Products+%C2%B7+Best+Paper+%C2%B7+IC-AISMART+2025" alt="Typing SVG" />
 
 <br/>
 
@@ -34,11 +34,11 @@ name:      "Nagesh Kore"
 role:      "Full-Stack Engineer & AI Systems Builder"
 location:  "Bangalore, India"
 focus:
-  - AI-integrated full-stack platforms
-  - Real-time systems & RBAC infrastructure
-  - API-first backend architecture
-  - Applied ML workflows & automation pipelines
-builds:    "production systems, not prototypes"
+  - AI-integrated full-stack platforms & production systems
+  - Real-time infrastructure, RBAC, and API-first architecture
+  - Applied ML workflows, automation & scraping pipelines
+  - Games, tools, and rapid prototyping with clean engineering
+builds:    "things that work in the real world, not just in a repo"
 principle: "if it's not deployed, it's not done"
 ```
 
@@ -64,11 +64,11 @@ AI-powered SCRUM orchestrator — meeting transcription → intelligent task ext
 ### 🏥 Clinichealthtree — Healthcare Platform
 ![Live](https://img.shields.io/badge/%E2%97%8F_Live-1D9E75?style=flat-square&labelColor=0F6E56)
 
-End-to-end clinic management system — patient workflows, appointment scheduling, role-based dashboards, and secure Supabase-integrated APIs.
+End-to-end clinic management — patient workflows, appointment scheduling, role-based dashboards, and secure Supabase-integrated APIs.
 
 **→** [cliniquehealthtree.com](https://www.cliniquehealthtree.com)
 
-`React` `Firebase` `PostgreSQL` `JWT Auth`
+`React` `Supabase` `PostgreSQL` `JWT Auth`
 
 </td>
 </tr>
@@ -79,9 +79,9 @@ End-to-end clinic management system — patient workflows, appointment schedulin
 ![Hackathon](https://img.shields.io/badge/Hackathon_Project-7F77DD?style=flat-square&labelColor=534AB7)
 [![Repo](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github)](https://github.com/Nagukore/voxflow-ai)
 
-Multi-stage AI orchestrator with `KNOWLEDGE / ACTION / GENERAL` intent routing, 3-tier memory (short-term + Qdrant long-term + entity), SSE-based reminder scheduler, mail intelligence, and action confirmation workflows.
+Multi-stage AI orchestrator with `KNOWLEDGE / ACTION / GENERAL` intent routing, 3-tier memory (short-term + Qdrant long-term + entity), SSE-based reminder scheduler, mail intelligence, and action confirmation flows.
 
-`Node.js` `FastAPI` `Qdrant` `Gemini` `Open-router` `Vapi` `SSE`
+`Node.js` `FastAPI` `Qdrant` `Gemini` `Vapi` `SSE`
 
 </td>
 <td width="50%" valign="top">
@@ -93,7 +93,7 @@ Public clinic site with AI chatbot navigation, offline mode, doctor availability
 
 **→** [ssclinickudlu.com](https://www.ssclinickudlu.com)
 
-`React` `Firebase` `AI Chatbot` `PWA`
+`React` `Supabase` `AI Chatbot` `PWA`
 
 </td>
 </tr>
@@ -103,7 +103,7 @@ Public clinic site with AI chatbot navigation, offline mode, doctor availability
 ### 🧴 Siddeshwara Global Services
 ![Live](https://img.shields.io/badge/%E2%97%8F_Live-1D9E75?style=flat-square&labelColor=0F6E56)
 
-Modern production website for a Bangalore-based cleaning products supplier, with TypeScript-safe components and external integrations.
+Modern production website for a Bangalore-based cleaning products supplier — TypeScript-safe components, Google Maps integration, and contact workflows.
 
 **→** [siddeshwaraglobalservices.com](https://www.siddeshwaraglobalservices.com)
 
@@ -124,10 +124,34 @@ Full retrieval-augmented generation pipeline — document ingestion, vector embe
 <tr>
 <td width="50%" valign="top">
 
+### 🎮 Hunt the Wumpus — Browser Game
+![Live](https://img.shields.io/badge/%E2%97%8F_Live-1D9E75?style=flat-square&labelColor=0F6E56)
+[![Repo](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github)](https://github.com/Nagukore/wumpusgame)
+[![Play](https://img.shields.io/badge/Play_Now-FF6B6B?style=flat-square)](https://wumpusgames.netlify.app/)
+
+Modern web recreation of the classic 1973 cave-exploration game. 8×8 grid cavern, real-time perception system (breeze/stench/flapping), dynamic Wumpus AI, keyboard-driven controls. Built in 5 minutes with a single AI prompt.
+
+`Vanilla JS` `HTML5` `CSS3` `Netlify`
+
+</td>
+<td width="50%" valign="top">
+
+### 🕷️ Advanced Book Scraper CLI
+[![Repo](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github)](https://github.com/Nagukore/advanced-book-scraper)
+
+Production-oriented, multi-threaded CLI web scraper — concurrent page processing via `ThreadPoolExecutor`, retry/backoff strategy, encoding-safe parsing, CLI filtering + sorting, CSV analytics export.
+
+`Python` `BeautifulSoup4` `requests` `concurrent.futures` `argparse`
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
 ### 🖱️ Virtual AI Mouse
 [![Repo](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github)](https://github.com/Nagukore/VIRTUAL-AI-MOUSE)
 
-Contactless gesture-controlled mouse using MediaPipe hand-tracking + OpenCV — no hardware needed, runs in real-time via webcam.
+Contactless gesture-controlled mouse using MediaPipe hand-tracking + OpenCV — real-time interaction via webcam, no hardware needed.
 
 `Python` `MediaPipe` `OpenCV` `PyAutoGUI`
 
@@ -168,6 +192,7 @@ Contactless gesture-controlled mouse using MediaPipe hand-tracking + OpenCV — 
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
 ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white)
 ![MediaPipe](https://img.shields.io/badge/MediaPipe-0097A7?style=flat-square&logoColor=white)
+![BeautifulSoup](https://img.shields.io/badge/BeautifulSoup4-3776AB?style=flat-square&logo=python&logoColor=white)
 ![NLTK](https://img.shields.io/badge/NLP_NLTK-4B8BBE?style=flat-square&logoColor=white)
 
 **Tools & DevOps**
@@ -176,6 +201,7 @@ Contactless gesture-controlled mouse using MediaPipe hand-tracking + OpenCV — 
 ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=postman&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
 ![VSCode](https://img.shields.io/badge/VSCode-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white)
+![Netlify](https://img.shields.io/badge/Netlify-00C7B7?style=flat-square&logo=netlify&logoColor=white)
 
 ---
 
@@ -186,6 +212,7 @@ Contactless gesture-controlled mouse using MediaPipe hand-tracking + OpenCV — 
 | 🏥 | Clinichealthtree | [cliniquehealthtree.com](https://www.cliniquehealthtree.com) |
 | 🏥 | SS Clinic | [ssclinickudlu.com](https://www.ssclinickudlu.com) |
 | 🧴 | Siddeshwara Global Services | [siddeshwaraglobalservices.com](https://www.siddeshwaraglobalservices.com) |
+| 🎮 | Hunt the Wumpus | [wumpusgames.netlify.app](https://wumpusgames.netlify.app/) |
 
 ---
 
@@ -196,6 +223,7 @@ Contactless gesture-controlled mouse using MediaPipe hand-tracking + OpenCV — 
 ▸  Real-world impact over impressive-looking prototypes
 ▸  AI as a force multiplier — automation with intentional design
 ▸  Modular, maintainable systems built for production, not demos
+▸  Breadth matters — from healthcare platforms to browser games
 ▸  If it's not deployed, it's not done
 ```
 
@@ -205,6 +233,8 @@ Contactless gesture-controlled mouse using MediaPipe hand-tracking + OpenCV — 
 
 [![LinkedIn](https://img.shields.io/badge/Connect_on_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/nagesh-kore-7566b6254)
 [![Instagram](https://img.shields.io/badge/Follow_on_Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/the.nagesh)
+
+*Open to collaborations, freelance projects, and interesting engineering problems.*
 
 <sub>⭐ if something here is useful — a star goes a long way</sub>
 
