@@ -68,7 +68,7 @@ End-to-end clinic management — patient workflows, appointment scheduling, role
 
 **→** [cliniquehealthtree.com](https://www.cliniquehealthtree.com)
 
-`React` `Supabase` `PostgreSQL` `JWT Auth`
+`React` `Firebase` `PostgreSQL` `JWT Auth`
 
 </td>
 </tr>
@@ -81,7 +81,7 @@ End-to-end clinic management — patient workflows, appointment scheduling, role
 
 Multi-stage AI orchestrator with `KNOWLEDGE / ACTION / GENERAL` intent routing, 3-tier memory (short-term + Qdrant long-term + entity), SSE-based reminder scheduler, mail intelligence, and action confirmation flows.
 
-`Node.js` `FastAPI` `Qdrant` `Gemini` `Vapi` `SSE`
+`Node.js` `FastAPI` `Qdrant` `Gemini`  `Open-router` `Vapi` `SSE`
 
 </td>
 <td width="50%" valign="top">
@@ -93,7 +93,7 @@ Public clinic site with AI chatbot navigation, offline mode, doctor availability
 
 **→** [ssclinickudlu.com](https://www.ssclinickudlu.com)
 
-`React` `Supabase` `AI Chatbot` `PWA`
+`React` `Firebase` `AI Chatbot` `PWA`
 
 </td>
 </tr>
@@ -107,7 +107,7 @@ Modern production website for a Bangalore-based cleaning products supplier — T
 
 **→** [siddeshwaraglobalservices.com](https://www.siddeshwaraglobalservices.com)
 
-`React` `TypeScript` `Tailwind` `shadcn/ui` `Vite`
+`React` `TypeScript` `Tailwind` `shadcn/ui` `Vite` `Firebase`
 
 </td>
 <td width="50%" valign="top">
@@ -117,7 +117,7 @@ Modern production website for a Bangalore-based cleaning products supplier — T
 
 Full retrieval-augmented generation pipeline — document ingestion, vector embeddings, semantic search, and AI-powered Q&A over structured and unstructured knowledge bases.
 
-`Python` `FastAPI` `Qdrant` `Gemini Embeddings` `NLP`
+`Python` `FastAPI` `Gemini Embeddings` `NLP`
 
 </td>
 </tr>
