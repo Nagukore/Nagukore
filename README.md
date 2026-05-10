@@ -68,7 +68,7 @@ End-to-end clinic management system — patient workflows, appointment schedulin
 
 **→** [cliniquehealthtree.com](https://www.cliniquehealthtree.com)
 
-`React` `Supabase` `PostgreSQL` `JWT Auth`
+`React` `Firebase` `PostgreSQL` `JWT Auth`
 
 </td>
 </tr>
@@ -81,7 +81,7 @@ End-to-end clinic management system — patient workflows, appointment schedulin
 
 Multi-stage AI orchestrator with `KNOWLEDGE / ACTION / GENERAL` intent routing, 3-tier memory (short-term + Qdrant long-term + entity), SSE-based reminder scheduler, mail intelligence, and action confirmation workflows.
 
-`Node.js` `FastAPI` `Qdrant` `Gemini` `Vapi` `SSE`
+`Node.js` `FastAPI` `Qdrant` `Gemini` `Open-router` `Vapi` `SSE`
 
 </td>
 <td width="50%" valign="top">
@@ -93,7 +93,7 @@ Public clinic site with AI chatbot navigation, offline mode, doctor availability
 
 **→** [ssclinickudlu.com](https://www.ssclinickudlu.com)
 
-`React` `Supabase` `AI Chatbot` `PWA`
+`React` `Firebase` `AI Chatbot` `PWA`
 
 </td>
 </tr>
