@@ -74,6 +74,12 @@ engineering_principles:
 
 ---
 
+# Featured Engineering Systems
+
+> The projects that shaped my engineering journey and define my core full-stack + AI systems experience.
+
+---
+
 # Featured System — FOSYS
 
 <div align="center">
@@ -277,6 +283,19 @@ Modern healthcare platform with AI-powered navigation and appointment workflows.
 * Progressive Web App support
 * Offline mode support
 * API-driven appointment booking
+
+### Why This Project Matters
+
+SS Clinic was my first complete end-to-end full-stack production deployment. It helped me understand:
+
+* Frontend to backend integration
+* Real-world deployment workflows
+* Authentication & API communication
+* UI/UX for actual users
+* Hosting, routing, and production debugging
+* Building scalable healthcare-oriented workflows
+
+This project became the foundation for my later production systems and AI-integrated platforms.
 
 ### Stack
 
