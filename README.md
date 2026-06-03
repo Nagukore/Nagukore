@@ -6,17 +6,13 @@
 
 <div align="center">
 
-<img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=700&size=20&duration=2500&pause=1000&color=36BCF7&center=true&vCenter=true&width=850&lines=Building+Production-Ready+AI+Systems;Realtime+Infrastructure+%26+Automation;FastAPI+%C2%B7+React+%C2%B7+Supabase+%C2%B7+Qdrant;Turning+Complex+Ideas+Into+Deployed+Platforms;AI-Orchestrated+Full-Stack+Engineering" alt="Typing SVG" />
-
-<br/>
-
-<img src="https://github-profile-trophy.vercel.app/?username=Nagukore&theme=algolia&no-frame=true&margin-w=8&margin-h=8&row=1" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Nagukore&theme=tokyonight" width="95%" />
 
 <br/><br/>
 
-<img src="https://komarev.com/ghpvc/?username=Nagukore&label=Profile%20Views&color=0e75b6&style=flat" alt="profile views" />
-<img src="https://img.shields.io/github/followers/Nagukore?label=Followers&style=flat&color=0A66C2" />
-<img src="https://img.shields.io/github/stars/Nagukore?label=Stars&style=flat&color=FFD700" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Nagukore&theme=tokyonight" width="48%" />
+
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Nagukore&theme=tokyonight&utcOffset=5.5" width="48%" />
 
 </div>
 
