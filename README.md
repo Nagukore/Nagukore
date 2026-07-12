@@ -84,21 +84,16 @@ engineering_principles:
 
 # Featured Engineering Systems
 
-> Projects that shaped my engineering journey and define my core full-stack + AI systems experience.
+> Projects that shaped my engineering journey and define my core full-stack + AI systems experience. Click a project to expand.
 
----
-
-## ⭐ Featured System — FOSYS
+<details>
+<summary><h2>⭐ FOSYS — AI Workflow Automation & SCRUM Intelligence Platform 🏆 Best Paper Winner, IC-AISMART 2025</h2></summary>
 
 <div align="center">
 
 <img src="https://user-images.githubusercontent.com/74038190/212749695-f4ecfb12-4cad-4b0d-9b75-0d2c8440f8f3.gif" width="500"/>
 
 </div>
-
-### AI Workflow Automation & SCRUM Intelligence Platform
-
-> 🏆 Best Paper Winner — IC-AISMART 2025
 
 FOSYS is a production-oriented AI orchestration platform designed to automate SCRUM workflows, meeting intelligence, and task coordination across teams.
 
@@ -140,11 +135,10 @@ RBAC Dashboard + Workflow Automation
 
 `React` `FastAPI` `Supabase` `Prisma` `PostgreSQL` `Realtime APIs`
 
----
+</details>
 
-## ⭐ Featured System — SS Clinic
-
-### AI-Integrated Healthcare Website — First Production Client Delivery
+<details>
+<summary><h2>⭐ SS Clinic — AI-Integrated Healthcare Website (First Production Client Delivery)</h2></summary>
 
 > My first end-to-end full-stack production deployment — delivered to a real healthcare client.
 
@@ -177,15 +171,14 @@ This project became the foundation for every production system I've built since.
 
 🌐 **Live:** [https://www.ssclinickudlu.com](https://www.ssclinickudlu.com)
 
+</details>
+
 ---
 
 # ⚡ Core Engineering Projects
 
----
-
-## i. VoxFlow — Voice-First AI Assistant
-
-### AI-Orchestrated Conversational System
+<details>
+<summary><h2>i. VoxFlow — Voice-First AI Assistant (AI-Orchestrated Conversational System)</h2></summary>
 
 Multi-stage AI assistant with intelligent intent routing and long-term memory architecture.
 
@@ -229,11 +222,10 @@ Realtime Response Streaming
 
 🔗 **Repository:** [voxflow-ai](https://github.com/Nagukore/voxflow-ai)
 
----
+</details>
 
-## ii. Siddeshwara Global Services — Business Platform
-
-### Production Full-Stack Business Website
+<details>
+<summary><h2>ii. Siddeshwara Global Services — Production Full-Stack Business Platform</h2></summary>
 
 Modern multi-page production platform for a Bangalore-based cleaning products supplier — featuring a fully integrated e-commerce storefront.
 
@@ -260,11 +252,10 @@ Modern multi-page production platform for a Bangalore-based cleaning products su
 
 🌐 **Live:** [https://www.siddeshwaraglobalservices.com](https://www.siddeshwaraglobalservices.com)
 
----
+</details>
 
-## iii. Virtual AI Mouse — Computer Vision Project
-
-### Gesture-Controlled Contactless Mouse
+<details>
+<summary><h2>iii. Virtual AI Mouse — Gesture-Controlled Contactless Mouse (Computer Vision, Published Research)</h2></summary>
 
 Real-time gesture-controlled virtual mouse using computer vision and hand tracking. No hardware required — just a webcam.
 
@@ -285,11 +276,10 @@ Real-time gesture-controlled virtual mouse using computer vision and hand tracki
 
 🔗 **Repository:** [VIRTUAL-AI-MOUSE](https://github.com/Nagukore/VIRTUAL-AI-MOUSE)
 
----
+</details>
 
-## iv. Advanced Book Scraper CLI
-
-### Production-Grade Multithreaded Web Scraping Tool
+<details>
+<summary><h2>iv. Advanced Book Scraper CLI — Production-Grade Multithreaded Web Scraping Tool</h2></summary>
 
 High-performance concurrent CLI scraper with retry strategies, filtering, and analytics export.
 
@@ -307,11 +297,10 @@ High-performance concurrent CLI scraper with retry strategies, filtering, and an
 
 🔗 **Repository:** [advanced-book-scraper](https://github.com/Nagukore/advanced-book-scraper)
 
----
+</details>
 
-## v. Enterprise RAG System
-
-### Retrieval-Augmented Knowledge Platform
+<details>
+<summary><h2>v. Enterprise RAG System — Retrieval-Augmented Knowledge Platform</h2></summary>
 
 Production-oriented semantic retrieval system supporting structured and unstructured enterprise knowledge bases.
 
@@ -354,11 +343,10 @@ AI Response
 
 🔗 **Repository:** [enterprise-rag-system](https://github.com/Nagukore/enterprise-rag-system)
 
----
+</details>
 
-## vi. Clinichealthtree — Healthcare Management Platform
-
-### Production Full-Stack Healthcare Infrastructure
+<details>
+<summary><h2>vi. Clinichealthtree — Production Full-Stack Healthcare Infrastructure</h2></summary>
 
 End-to-end clinic management platform with secure workflows, appointment scheduling, and role-based access systems — delivered as a complete full-stack solution.
 
@@ -384,13 +372,14 @@ End-to-end clinic management platform with secure workflows, appointment schedul
 
 🌐 **Live:** [https://www.cliniquehealthtree.com](https://www.cliniquehealthtree.com)
 
+</details>
+
 ---
 
 # 🎮 Games
 
----
-
-## Hunt the Wumpus — Browser Game
+<details>
+<summary><h2>Hunt the Wumpus — Browser Game (Built in Under 4 Minutes, One Prompt)</h2></summary>
 
 > ⚡ **Built with a single prompt in under 4 minutes.** A fully functional, playable browser game — from zero to deployed.
 
@@ -416,6 +405,8 @@ Most developers prototype in hours. This game was conceptualized, generated, and
 
 🌐 **Live:** [https://wumpusgames.netlify.app/](https://wumpusgames.netlify.app/)
 
+</details>
+
 ---
 
 <div align="center">
@@ -428,7 +419,8 @@ Most developers prototype in hours. This game was conceptualized, generated, and
 
 # Technical Expertise
 
-## Frontend Engineering
+<details>
+<summary><h2>Frontend Engineering</h2></summary>
 
 * React Ecosystem & Multi-Page Architecture
 * TypeScript — type-safe, scalable codebases
@@ -437,7 +429,10 @@ Most developers prototype in hours. This game was conceptualized, generated, and
 * State Management & Component Systems
 * E-commerce UI & Workflow Design
 
-## Backend & APIs
+</details>
+
+<details>
+<summary><h2>Backend & APIs</h2></summary>
 
 * FastAPI Microservices
 * Node.js Backend Systems
@@ -446,7 +441,10 @@ Most developers prototype in hours. This game was conceptualized, generated, and
 * Realtime Infrastructure
 * Event-Driven Workflows
 
-## Databases & Cloud
+</details>
+
+<details>
+<summary><h2>Databases & Cloud</h2></summary>
 
 * PostgreSQL Schema Design
 * Supabase Realtime
@@ -454,7 +452,10 @@ Most developers prototype in hours. This game was conceptualized, generated, and
 * Vector Databases (Qdrant)
 * Firebase Hosting & Integration
 
-## AI / ML Engineering
+</details>
+
+<details>
+<summary><h2>AI / ML Engineering</h2></summary>
 
 * Retrieval-Augmented Generation (RAG)
 * AI Orchestration & Intent Routing Pipelines
@@ -463,13 +464,18 @@ Most developers prototype in hours. This game was conceptualized, generated, and
 * Computer Vision (MediaPipe, OpenCV)
 * Multi-Agent Orchestration (Exploring)
 
-## DevOps & Tooling
+</details>
+
+<details>
+<summary><h2>DevOps & Tooling</h2></summary>
 
 * Git & GitHub Workflows
 * Linux Environments
 * Vercel & Firebase Deployment Pipelines
 * API Testing & Automation
 * Developer Tooling
+
+</details>
 
 ---
 
