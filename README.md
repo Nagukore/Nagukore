@@ -69,7 +69,25 @@ engineering_principles:
   - Automation should solve real problems
   - If it's not deployed, it's not done
 ```
+---
 
+# What I Solve
+
+I build systems where the AI layer has to survive contact with real users and real data — not demos.
+
+**Problem space I keep returning to:**
+- **Fragmented workflows** → orchestration systems that route intent (KNOWLEDGE / ACTION / GENERAL) instead of hardcoding every path
+- **Stale or unstructured knowledge** → retrieval pipelines (RAG) that make enterprise/document data queryable in plain language
+- **Manual, repetitive coordination** → automation that extracts structure from unstructured input (meetings → tasks → dependency graphs)
+- **Production gaps between prototype and deployment** → I ship end-to-end: auth, RBAC, realtime sync, hosting — not just the model call
+
+**How I approach it:**
+1. Start from the operational bottleneck, not the tech
+2. Design API-first so the frontend/backend can evolve independently
+3. Treat realtime + auth + RBAC as first-class, not afterthoughts
+4. Deploy early — debugging in production teaches things staging can't
+
+---
 ---
 
 # 🌐 Personal Portfolio
