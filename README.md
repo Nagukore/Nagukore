@@ -73,3 +73,24 @@ I build **AI-powered production systems**, **RAG pipelines**, **Agentic AI workf
 - 🔍 Semantic Search & Vector Databases
 
 ---
+---
+
+# 📊 GitHub Analytics
+
+<div align="center">
+
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=Nagukore&show_icons=true&theme=tokyonight&hide_border=true"/>
+
+<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Nagukore&layout=compact&theme=tokyonight&hide_border=true"/>
+
+</div>
+
+<br>
+
+<div align="center">
+
+<img src="https://streak-stats.demolab.com?user=Nagukore&theme=tokyonight&hide_border=true"/>
+
+</div>
+
+---
