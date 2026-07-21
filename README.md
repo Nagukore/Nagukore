@@ -560,9 +560,13 @@ Open to:
 <div align="center">
 
 ## 📊 GitHub Analytics
-https://streak-stats.demolab.com/?user=Nagukore
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=Nagukore&show_icons=true&theme=tokyonight&hide_border=true&border_radius=15" />
 
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=Nagukore&show_icons=true&theme=tokyonight&hide_border=true&border_radius=15" />
+<img
+  height="170"
+  src="https://github-readme-stats-sigma-five.vercel.app/api?username=Nagukore&show_icons=true&theme=tokyonight&hide_border=true"
+  alt="GitHub Stats"
+/>
 <img height="170" src="https://github-readme-streak-stats.herokuapp.com/?user=Nagukore&theme=tokyonight&hide_border=true&border_radius=15" />
 
 <br/><br/>
