@@ -41,7 +41,7 @@ I build **AI-powered production systems**, **RAG pipelines**, **Agentic AI workf
 
 <td width="35%" align="center">
 
-<img src="assets/developer-id-card.svg" width="300"/>
+<img src="./assets/premium-hero.svg" width="100%">
 
 </td>
 
