@@ -1,10 +1,10 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&height=220&text=Nagesh%20Kore&fontAlign=50&fontAlignY=40&color=0:060B10,50:002E4D,100:2B0F44&fontColor=ffffff&fontSize=56&desc=AI%20Engineer%20%26%20Full-Stack%20Developer&descAlign=50&descAlignY=72" alt="Nagesh Kore banner" />
+  <img src="assets/premium-hero.svg" alt="Nagesh Kore — AI Engineer & Full Stack Developer" style="width:100%;max-width:1400px;border-radius:12px;" />
 </div>
 
 <div align="center">
-  <h1 style="margin:8px 0 6px 0">Nagesh Kore</h1>
-  <p style="margin:0;color:#9fb6c9;max-width:880px">AI Engineer • Full‑Stack Systems Builder — I design, ship and operate production-ready AI platforms: realtime orchestration, retrieval-first knowledge systems, and resilient infra that serve real users.</p>
+  <h1 style="margin:12px 0 6px 0">Nagesh Kore</h1>
+  <p style="margin:0;color:#9fb6c9;max-width:880px">AI Engineer • Full‑Stack Systems Builder — I design, ship and operate production-ready AI platforms: realtime orchestration, retrieval-first systems, and deployed services that survive real users.</p>
 
   <p style="margin-top:10px">
     <a href="https://github.com/Nagukore" title="GitHub">GitHub</a> &nbsp;•&nbsp;
@@ -15,23 +15,9 @@
 
 ---
 
-<!-- Professional title + social / small stats -->
-
-<div align="center">
-
-<p>
-  <img alt="followers" src="https://img.shields.io/github/followers/Nagukore?label=Followers&style=for-the-badge&color=0EA5E9&logo=github" />
-  <img alt="repos" src="https://img.shields.io/github/repo-size/Nagukore/Nagukore?style=for-the-badge&color=7C3AED&logo=github" />
-  <img alt="visitor" src="https://visitor-badge.glitch.me/badge?page_id=Nagukore.Nagukore&right_color=2EC4B6&style=for-the-badge" />
-</p>
-
-</div>
-
----
-
 ## About — short story
 
-I build AI-first systems that are built to last. My work sits at the intersection of systems engineering, applied ML, and product-facing UX. From architecture to CI/CD and runtime observability, I take features through to safe, low-latency production deployments.
+I build AI-first systems that are built to last. My work sits at the intersection of systems engineering, applied ML, and product-facing UX. From architecture to CI/CD and runtime observability, I take ideas from prototype to production.
 
 - Location: Bangalore, India
 - Role: AI Engineer & Full‑Stack Developer
@@ -57,68 +43,285 @@ I build AI-first systems that are built to last. My work sits at the intersectio
 
 ---
 
-## Featured Projects (kept from original; click to open)
+## Projects — Premium Cards
 
-<details>
-<summary><strong>FOSYS — AI Workflow Automation & SCRUM Intelligence</strong></summary>
+Below are the key projects that shaped my engineering approach. Each project card is responsive, interactive, and contains architecture, highlights, repository and live links. Click any card to expand for full details.
 
+<style>
+/* Simple responsive grid — GitHub sanitizes <style> in READMEs but it's supported in many views; if stripped, layout falls back to stacked cards. */
+.projects-grid{display:flex;flex-wrap:wrap;gap:20px;justify-content:center}
+.project-card{width:520px;max-width:100%;border-radius:12px;overflow:hidden}
+.project-thumb{width:100%;height:auto;border-radius:10px}
+.card-meta{padding:12px;background:linear-gradient(180deg, rgba(2,8,12,0.4), rgba(2,8,12,0.6));}
+.card-title{font-family:Inter, Roboto, -apple-system, sans-serif;font-size:18px;font-weight:700;color:#fff;margin:0}
+.card-desc{color:#9fb6c9;margin:6px 0}
+.card-stack{color:#9ed6ff;font-size:13px}
+.card-links a{margin-right:12px;color:#9ed6ff}
+</style>
+
+<div class="projects-grid">
+
+<!-- FOSYS -->
+<details class="project-card">
+<summary>
+  <div style="display:flex;gap:12px;align-items:center;padding:10px;">
+    <img src="assets/project-card.svg" alt="FOSYS thumbnail" class="project-thumb" style="width:120px;flex:0 0 120px;" />
+    <div style="flex:1">
+      <div class="card-title">FOSYS — AI Workflow Automation & SCRUM Intelligence</div>
+      <div class="card-desc">Orchestration platform that converts meeting audio into structured tasks, generates dependency graphs and automates team workflows with RBAC and realtime sync.</div>
+      <div class="card-stack">React · FastAPI · Supabase · Prisma · PostgreSQL · Qdrant</div>
+    </div>
+  </div>
+</summary>
+
+### FOSYS — Details
+
+- Repository: https://github.com/Nagukore/fosys
+- Live Demo: (internal demo) — contact for access
+- Architecture: ![Architecture](assets/architecture.svg)
+
+Highlights
 - Best Paper — IC‑AISMART 2025
-- Converts meeting audio → tasks → orchestrated workflows with RBAC and realtime sync.
-- Stack: React · FastAPI · Supabase · Prisma · PostgreSQL · Qdrant
-- Repo: https://github.com/Nagukore/fosys (original repo retained in your account)
+- Meeting transcription → task extraction → dependency graph generation
+- Realtime sync + RBAC + automated PR workflows
+
+GIF / Demo
+
+![FOSYS demo placeholder](assets/project-card.svg)
 
 </details>
 
-<details>
-<summary><strong>SS Clinic — AI‑Integrated Healthcare Website</strong></summary>
+<!-- SS Clinic -->
+<details class="project-card">
+<summary>
+  <div style="display:flex;gap:12px;align-items:center;padding:10px;">
+    <img src="assets/project-card.svg" alt="SS Clinic thumbnail" class="project-thumb" style="width:120px;flex:0 0 120px;" />
+    <div style="flex:1">
+      <div class="card-title">SS Clinic — AI‑Integrated Healthcare Website</div>
+      <div class="card-desc">Patient-facing platform with an AI chatbot, appointment booking and PWA support — first full production client delivery.</div>
+      <div class="card-stack">React · Firebase · PWA · AI Chatbot</div>
+    </div>
+  </div>
+</summary>
 
-- First production client delivery — patient-facing platform with AI chatbot and PWA support.
-- Live: https://www.ssclinickudlu.com
-- Repo: https://github.com/Nagukore/ss-clinic
+### SS Clinic — Details
 
-</details>
+- Repository: https://github.com/Nagukore/ss-clinic
+- Live Demo: https://www.ssclinickudlu.com
+- Architecture: ![Architecture](assets/architecture.svg)
 
-<details>
-<summary><strong>VoxFlow — Voice‑First AI Assistant</strong></summary>
+Highlights
+- First production client delivery — real-world deployment and operational support
+- Offline-capable PWA and AI assistant for patient navigation
 
-- Multi-stage assistant with KNOWLEDGE / ACTION / GENERAL intent routing and long-term memory.
-- Repo: https://github.com/Nagukore/voxflow-ai
+GIF / Demo
 
-</details>
-
-<details>
-<summary><strong>Virtual AI Mouse — Gesture-Controlled Accessibility</strong></summary>
-
-- Real-time hand tracking for contactless mouse control (MediaPipe + OpenCV).
-- Paper: "Hands‑Free Computing: A Gesture‑Controlled Virtual AI Mouse" — JETIR, May 2025
-- Repo: https://github.com/Nagukore/VIRTUAL-AI-MOUSE
-
-</details>
-
-<details>
-<summary><strong>Advanced Book Scraper CLI</strong></summary>
-
-- Production-grade concurrent scraper with retries, filtering and CSV analytics.
-- Repo: https://github.com/Nagukore/advanced-book-scraper
+![SS Clinic demo placeholder](assets/project-card.svg)
 
 </details>
 
-<details>
-<summary><strong>Enterprise RAG System</strong></summary>
+<!-- VoxFlow -->
+<details class="project-card">
+<summary>
+  <div style="display:flex;gap:12px;align-items:center;padding:10px;">
+    <img src="assets/project-card.svg" alt="VoxFlow thumbnail" class="project-thumb" style="width:120px;flex:0 0 120px;" />
+    <div style="flex:1">
+      <div class="card-title">VoxFlow — Voice‑First AI Assistant</div>
+      <div class="card-desc">Multi-stage voice assistant with intent routing (KNOWLEDGE / ACTION / GENERAL), long-term memory and streaming responses.</div>
+      <div class="card-stack">Node.js · FastAPI · Qdrant · SSE · Gemini</div>
+    </div>
+  </div>
+</summary>
 
-- Document ingestion → chunking → embeddings → semantic retrieval with metadata filters.
-- Repo: https://github.com/Nagukore/enterprise-rag-system
+### VoxFlow — Details
+
+- Repository: https://github.com/Nagukore/voxflow-ai
+- Live Demo: (internal) contact for access
+- Architecture: ![Architecture](assets/architecture.svg)
+
+Highlights
+- Intent routing and entity-aware conversational memory
+- SSE streaming and low-latency reminder system
+
+GIF / Demo
+
+![VoxFlow demo placeholder](assets/project-card.svg)
 
 </details>
 
-<details>
-<summary><strong>Clinichealthtree — Clinic Management Platform</strong></summary>
+<!-- Enterprise RAG -->
+<details class="project-card">
+<summary>
+  <div style="display:flex;gap:12px;align-items:center;padding:10px;">
+    <img src="assets/project-card.svg" alt="Enterprise RAG thumbnail" class="project-thumb" style="width:120px;flex:0 0 120px;" />
+    <div style="flex:1">
+      <div class="card-title">Enterprise RAG System</div>
+      <div class="card-desc">Production-grade retrieval system: ingestion, chunking, embedding pipelines and metadata-aware semantic retrieval for enterprise knowledge.</div>
+      <div class="card-stack">Python · FastAPI · Qdrant · Gemini Embeddings</div>
+    </div>
+  </div>
+</summary>
 
-- Full production clinic management with JWT auth, RBAC and realtime updates.
-- Live: https://www.cliniquehealthtree.com
-- Repo: https://github.com/Nagukore/clinichealthtree
+### Enterprise RAG — Details
+
+- Repository: https://github.com/Nagukore/enterprise-rag-system
+- Live Demo: (internal) contact for access
+- Architecture: ![Architecture](assets/architecture.svg)
+
+Highlights
+- Chunking and embedding pipelines optimized for scale
+- Metadata filtering and semantic search for documents
+
+GIF / Demo
+
+![Enterprise RAG demo placeholder](assets/project-card.svg)
 
 </details>
+
+<!-- Virtual AI Mouse -->
+<details class="project-card">
+<summary>
+  <div style="display:flex;gap:12px;align-items:center;padding:10px;">
+    <img src="assets/project-card.svg" alt="Virtual AI Mouse thumbnail" class="project-thumb" style="width:120px;flex:0 0 120px;" />
+    <div style="flex:1">
+      <div class="card-title">Virtual AI Mouse — Gesture-Controlled Mouse</div>
+      <div class="card-desc">Real-time gesture recognition using MediaPipe + OpenCV to provide contactless mouse controls for accessibility.</div>
+      <div class="card-stack">Python · OpenCV · MediaPipe · PyAutoGUI</div>
+    </div>
+  </div>
+</summary>
+
+### Virtual AI Mouse — Details
+
+- Repository: https://github.com/Nagukore/VIRTUAL-AI-MOUSE
+- Live Demo: (paper & demo GIF available) see repo
+- Architecture: ![Architecture](assets/architecture.svg)
+
+Highlights
+- Published research: "Hands‑Free Computing" — JETIR, May 2025
+- Real-time hand tracking and gesture mapping
+
+GIF / Demo
+
+![Virtual AI Mouse demo placeholder](assets/project-card.svg)
+
+</details>
+
+<!-- Clinichealthtree -->
+<details class="project-card">
+<summary>
+  <div style="display:flex;gap:12px;align-items:center;padding:10px;">
+    <img src="assets/project-card.svg" alt="Clinichealthtree thumbnail" class="project-thumb" style="width:120px;flex:0 0 120px;" />
+    <div style="flex:1">
+      <div class="card-title">Clinichealthtree — Clinic Management Platform</div>
+      <div class="card-desc">End-to-end clinic platform with secure JWT auth, RBAC and realtime updates — production client work.</div>
+      <div class="card-stack">React · Firebase · PostgreSQL · JWT</div>
+    </div>
+  </div>
+</summary>
+
+### Clinichealthtree — Details
+
+- Repository: https://github.com/Nagukore/clinichealthtree
+- Live Demo: https://www.cliniquehealthtree.com
+- Architecture: ![Architecture](assets/architecture.svg)
+
+Highlights
+- Role-based dashboards and secure workflows
+- Realtime updates and multi-role UX
+
+GIF / Demo
+
+![Clinichealthtree demo placeholder](assets/project-card.svg)
+
+</details>
+
+<!-- Advanced Book Scraper -->
+<details class="project-card">
+<summary>
+  <div style="display:flex;gap:12px;align-items:center;padding:10px;">
+    <img src="assets/project-card.svg" alt="Advanced Book Scraper thumbnail" class="project-thumb" style="width:120px;flex:0 0 120px;" />
+    <div style="flex:1">
+      <div class="card-title">Advanced Book Scraper — CLI</div>
+      <div class="card-desc">High-performance concurrent CLI scraper with retries, filtering and analytics export for production scraping workflows.</div>
+      <div class="card-stack">Python · BeautifulSoup4 · ThreadPoolExecutor</div>
+    </div>
+  </div>
+</summary>
+
+### Advanced Book Scraper — Details
+
+- Repository: https://github.com/Nagukore/advanced-book-scraper
+- Live Demo: N/A (CLI)
+- Architecture: ![Architecture](assets/architecture.svg)
+
+Highlights
+- ThreadPoolExecutor-based concurrency and retry strategies
+- CSV analytics export and encoding-safe parsing
+
+GIF / Demo
+
+![Advanced Book Scraper demo placeholder](assets/project-card.svg)
+
+</details>
+
+<!-- Siddeshwara Global Services -->
+<details class="project-card">
+<summary>
+  <div style="display:flex;gap:12px;align-items:center;padding:10px;">
+    <img src="assets/project-card.svg" alt="Siddeshwara thumbnail" class="project-thumb" style="width:120px;flex:0 0 120px;" />
+    <div style="flex:1">
+      <div class="card-title">Siddeshwara Global Services — Business Platform</div>
+      <div class="card-desc">Multi-page e-commerce platform with product catalog, ordering workflows and Firebase-hosted production delivery.</div>
+      <div class="card-stack">React · TypeScript · TailwindCSS · Firebase</div>
+    </div>
+  </div>
+</summary>
+
+### Siddeshwara Global Services — Details
+
+- Repository: https://github.com/Nagukore/ (see repo list)
+- Live Demo: https://www.siddeshwaraglobalservices.com
+- Architecture: ![Architecture](assets/architecture.svg)
+
+Highlights
+- Production e-commerce with responsive UI and CI/CD
+
+GIF / Demo
+
+![Siddeshwara demo placeholder](assets/project-card.svg)
+
+</details>
+
+<!-- Hunt the Wumpus -->
+<details class="project-card">
+<summary>
+  <div style="display:flex;gap:12px;align-items:center;padding:10px;">
+    <img src="assets/project-card.svg" alt="Hunt the Wumpus thumbnail" class="project-thumb" style="width:120px;flex:0 0 120px;" />
+    <div style="flex:1">
+      <div class="card-title">Hunt The Wumpus — Rapid Game Prototype</div>
+      <div class="card-desc">Browser game prototype created in one prompt — demonstrating rapid AI-assisted prototyping and deployment.</div>
+      <div class="card-stack">Vanilla JS · HTML5 · CSS</div>
+    </div>
+  </div>
+</summary>
+
+### Hunt The Wumpus — Details
+
+- Repository: https://github.com/Nagukore/ (see repo list)
+- Live Demo: https://wumpusgames.netlify.app/
+- Architecture: ![Architecture](assets/architecture.svg)
+
+Highlights
+- Prototype delivered in 4 minutes using a single, well-structured prompt
+
+GIF / Demo
+
+![Hunt The Wumpus demo placeholder](assets/project-card.svg)
+
+</details>
+
+</div>
 
 ---
 
@@ -137,7 +340,7 @@ All live links retained from your profile:
 ## Tech Stack (selected)
 
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=react,ts,js,python,fastapi,nodejs,postgres,mongodb,firebase,supabase,docker,linux,git,github,vscode,tailwind,qdrant" alt="tech icons" />
+  <img src="assets/techstack.svg" alt="tech icons" />
 </div>
 
 React · TypeScript · Node.js · FastAPI · Qdrant · PostgreSQL · Supabase · Firebase · Docker · SSE · Vector embeddings
@@ -176,7 +379,7 @@ Responses stream via SSE / websocket. Persistence: Postgres (operational) + vect
 
 ## GitHub Analytics (concise)
 
-I keep my primary activity visible on GitHub — repositories above contain the full source for each project. For quick stats, follower and repo-size badges appear near the top; for in-depth analytics I rely on internal dashboards and production telemetry.
+I keep my primary activity visible on GitHub — repositories above contain the full source for each project. For quick stats, follower and repo-size badges appear near the top; for in-depth anal[...]
 
 ---
 
