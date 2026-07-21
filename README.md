@@ -41,7 +41,7 @@ I build **AI-powered production systems**, **RAG pipelines**, **Agentic AI workf
 
 <td width="35%" align="center">
 
-<img src="./assets/premium-hero.svg" width="100%">
+<img src="https://raw.githubusercontent.com/Nagukore/Nagukore/main/assets/premium-hero.svg" width="100%">
 
 </td>
 
