@@ -1,0 +1,61 @@
+<svg width="100%" height="420" viewBox="0 0 1000 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Technical stack by category">
+  <defs>
+    <linearGradient id="tsBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0B1230"/>
+      <stop offset="100%" stop-color="#141C42"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1000" height="420" rx="16" fill="url(#tsBg)" stroke="#26305C"/>
+
+  <g font-family="Verdana, Geneva, sans-serif">
+
+    <!-- Frontend -->
+    <text x="34" y="42" font-size="14" fill="#5EE6FF" font-weight="bold" letter-spacing="1">FRONTEND</text>
+    <g font-size="12" fill="#DCE6FF">
+      <rect x="34" y="54" width="72" height="28" rx="14" fill="#1B2550" stroke="#33407A"/><text x="47" y="73">React</text>
+      <rect x="114" y="54" width="96" height="28" rx="14" fill="#1B2550" stroke="#33407A"/><text x="127" y="73">TypeScript</text>
+      <rect x="218" y="54" width="98" height="28" rx="14" fill="#1B2550" stroke="#33407A"/><text x="231" y="73">JavaScript</text>
+      <rect x="324" y="54" width="106" height="28" rx="14" fill="#1B2550" stroke="#33407A"/><text x="337" y="73">TailwindCSS</text>
+    </g>
+
+    <!-- Backend -->
+    <text x="34" y="120" font-size="14" fill="#5EE6FF" font-weight="bold" letter-spacing="1">BACKEND &amp; APIs</text>
+    <g font-size="12" fill="#DCE6FF">
+      <rect x="34" y="132" width="80" height="28" rx="14" fill="#1B2550" stroke="#33407A"/><text x="49" y="151">Python</text>
+      <rect x="122" y="132" width="90" height="28" rx="14" fill="#1B2550" stroke="#33407A"/><text x="135" y="151">FastAPI</text>
+      <rect x="220" y="132" width="90" height="28" rx="14" fill="#1B2550" stroke="#33407A"/><text x="234" y="151">Node.js</text>
+      <rect x="318" y="132" width="94" height="28" rx="14" fill="#1B2550" stroke="#33407A"/><text x="333" y="151">REST APIs</text>
+    </g>
+
+    <!-- Data / Cloud -->
+    <text x="34" y="198" font-size="14" fill="#5EE6FF" font-weight="bold" letter-spacing="1">DATABASES &amp; CLOUD</text>
+    <g font-size="12" fill="#DCE6FF">
+      <rect x="34" y="210" width="108" height="28" rx="14" fill="#1B2550" stroke="#33407A"/><text x="48" y="229">PostgreSQL</text>
+      <rect x="150" y="210" width="98" height="28" rx="14" fill="#1B2550" stroke="#33407A"/><text x="164" y="229">Supabase</text>
+      <rect x="256" y="210" width="90" height="28" rx="14" fill="#1B2550" stroke="#33407A"/><text x="270" y="229">Firebase</text>
+      <rect x="354" y="210" width="98" height="28" rx="14" fill="#1B2550" stroke="#33407A"/><text x="368" y="229">MongoDB</text>
+      <rect x="460" y="210" width="86" height="28" rx="14" fill="#1B2550" stroke="#33407A"/><text x="474" y="229">Qdrant</text>
+    </g>
+
+    <!-- AI/ML -->
+    <text x="34" y="276" font-size="14" fill="#A26BFF" font-weight="bold" letter-spacing="1">AI / ML ENGINEERING</text>
+    <g font-size="12" fill="#EDE4FF">
+      <rect x="34" y="288" width="102" height="28" rx="14" fill="#241A4E" stroke="#4A3A8C"/><text x="48" y="307">LangChain</text>
+      <rect x="144" y="288" width="80" height="28" rx="14" fill="#241A4E" stroke="#4A3A8C"/><text x="158" y="307">Ollama</text>
+      <rect x="232" y="288" width="84" height="28" rx="14" fill="#241A4E" stroke="#4A3A8C"/><text x="246" y="307">OpenAI</text>
+      <rect x="324" y="288" width="82" height="28" rx="14" fill="#241A4E" stroke="#4A3A8C"/><text x="338" y="307">Gemini</text>
+      <rect x="414" y="288" width="98" height="28" rx="14" fill="#241A4E" stroke="#4A3A8C"/><text x="428" y="307">Anthropic</text>
+      <rect x="520" y="288" width="128" height="28" rx="14" fill="#241A4E" stroke="#4A3A8C"/><text x="534" y="307">Computer Vision</text>
+    </g>
+
+    <!-- DevOps -->
+    <text x="34" y="354" font-size="14" fill="#5EE6FF" font-weight="bold" letter-spacing="1">DEVOPS &amp; TOOLING</text>
+    <g font-size="12" fill="#DCE6FF">
+      <rect x="34" y="366" width="80" height="28" rx="14" fill="#1B2550" stroke="#33407A"/><text x="49" y="385">Docker</text>
+      <rect x="122" y="366" width="66" height="28" rx="14" fill="#1B2550" stroke="#33407A"/><text x="137" y="385">Git</text>
+      <rect x="196" y="366" width="80" height="28" rx="14" fill="#1B2550" stroke="#33407A"/><text x="211" y="385">Linux</text>
+      <rect x="284" y="366" width="94" height="28" rx="14" fill="#1B2550" stroke="#33407A"/><text x="298" y="385">GitHub CI</text>
+    </g>
+  </g>
+</svg>

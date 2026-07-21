@@ -1,0 +1,92 @@
+<svg width="100%" height="340" viewBox="0 0 1200 340" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Nagesh Kore — AI Engineer, Full-Stack Developer, Production Systems Builder">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#060A18"/>
+      <stop offset="45%" stop-color="#0B1230"/>
+      <stop offset="100%" stop-color="#0F1B3D"/>
+    </linearGradient>
+    <linearGradient id="titleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#5EE6FF"/>
+      <stop offset="50%" stop-color="#5B8CFF"/>
+      <stop offset="100%" stop-color="#A26BFF"/>
+    </linearGradient>
+    <linearGradient id="lineGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#22D3EE" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#22D3EE" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#8B5CF6" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="nodeGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#5EE6FF" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#5EE6FF" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1200" height="340" fill="url(#bgGrad)"/>
+
+  <!-- circuit grid lines -->
+  <g stroke="#1E2A55" stroke-width="1" opacity="0.6">
+    <path d="M0 60 H1200"/>
+    <path d="M0 120 H1200"/>
+    <path d="M0 280 H1200"/>
+    <path d="M150 0 V340"/>
+    <path d="M1020 0 V340"/>
+  </g>
+
+  <!-- neural network mesh, right side -->
+  <g opacity="0.85">
+    <g stroke="url(#lineGrad)" stroke-width="1.4" fill="none">
+      <path d="M760 70 L860 110 L940 60"/>
+      <path d="M860 110 L920 180"/>
+      <path d="M760 70 L780 190"/>
+      <path d="M780 190 L920 180"/>
+      <path d="M920 180 L1010 130"/>
+      <path d="M940 60 L1010 130"/>
+      <path d="M780 190 L860 260"/>
+      <path d="M920 180 L1000 250"/>
+      <path d="M1000 250 L1080 200"/>
+      <path d="M1010 130 L1090 90"/>
+      <path d="M860 260 L1000 250"/>
+    </g>
+    <g fill="#5EE6FF">
+      <circle cx="760" cy="70" r="4"/>
+      <circle cx="860" cy="110" r="4"/>
+      <circle cx="940" cy="60" r="4"/>
+      <circle cx="780" cy="190" r="4"/>
+      <circle cx="920" cy="180" r="5"/>
+      <circle cx="1010" cy="130" r="4"/>
+      <circle cx="860" cy="260" r="4"/>
+      <circle cx="1000" cy="250" r="4"/>
+      <circle cx="1080" cy="200" r="4"/>
+      <circle cx="1090" cy="90" r="4"/>
+    </g>
+    <circle cx="920" cy="180" r="16" fill="url(#nodeGlow)"/>
+    <circle cx="860" cy="110" r="12" fill="url(#nodeGlow)"/>
+    <circle cx="1010" cy="130" r="12" fill="url(#nodeGlow)"/>
+  </g>
+
+  <!-- floating particles -->
+  <g fill="#8B5CF6">
+    <circle cx="120" cy="80" r="2.5" opacity="0.7"/>
+    <circle cx="200" cy="240" r="2" opacity="0.5"/>
+    <circle cx="60" cy="200" r="1.8" opacity="0.6"/>
+    <circle cx="300" cy="60" r="2.2" opacity="0.5"/>
+    <circle cx="1150" cy="270" r="2.4" opacity="0.6"/>
+    <circle cx="640" cy="300" r="2" opacity="0.5"/>
+  </g>
+  <g fill="#22D3EE">
+    <circle cx="180" cy="140" r="2" opacity="0.6"/>
+    <circle cx="350" cy="220" r="1.6" opacity="0.5"/>
+    <circle cx="1100" cy="60" r="2.2" opacity="0.6"/>
+    <circle cx="500" cy="40" r="1.8" opacity="0.45"/>
+  </g>
+
+  <!-- text block -->
+  <g font-family="Verdana, Geneva, sans-serif">
+    <text x="70" y="130" font-size="15" letter-spacing="4" fill="#5EE6FF">AI ENGINEER · SYSTEMS BUILDER</text>
+    <text x="68" y="195" font-size="58" font-weight="bold" fill="url(#titleGrad)">Nagesh Kore</text>
+    <text x="70" y="235" font-size="19" fill="#B9C3E6">Full-Stack Engineer · AI Systems Builder · Production-Focused Developer</text>
+    <text x="70" y="268" font-size="14" fill="#7E8AC0">Agentic AI · RAG · Realtime Infrastructure · Vector Search · Applied ML</text>
+  </g>
+
+  <rect x="70" y="285" width="46" height="3" fill="#22D3EE"/>
+</svg>
