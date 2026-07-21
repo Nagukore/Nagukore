@@ -1,234 +1,223 @@
 <div align="center">
-  <img src="assets/premium-hero.svg" alt="Nagesh Kore — AI Engineer & Full Stack Developer" style="width:100%;max-width:1400px;border-radius:12px;" />
+  <img src="assets/premium-hero.svg" alt="Nagesh Kore — AI Engineer & Full Stack Developer" style="width:100%;max-width:1200px;border-radius:12px;box-shadow:0 10px 30px rgba(0,0,0,0.6)" />
 </div>
 
-<div align="center">
-  <h1 style="margin:12px 0 6px 0">Nagesh Kore</h1>
-  <p style="margin:0;color:#9fb6c9;max-width:880px">AI Engineer • Full‑Stack Systems Builder — I design, ship and operate production AI platforms that turn human workflows into reliable, observable systems.</p>
-
-  <p style="margin-top:10px">
-    <a href="https://github.com/Nagukore" title="GitHub">GitHub</a> &nbsp;•&nbsp;
-    <a href="https://nageshs.vercel.app/" title="Portfolio">Portfolio</a> &nbsp;•&nbsp;
-    <a href="https://www.linkedin.com/in/nagesh-kore-7566b6254" title="LinkedIn">LinkedIn</a>
+<div align="center" style="margin-top:14px">
+  <h1 style="margin:6px 0;font-family:Inter, Roboto, -apple-system, sans-serif">Nagesh Kore</h1>
+  <p style="margin:6px 0;color:#9fb6c9;max-width:860px">AI Engineer · Full‑Stack Systems Builder — I design and operate production AI platforms: RAG, local LLM orchestration, memory systems, and realtime infrastructure.</p>
+  <p style="margin:8px 0">
+    <a href="https://github.com/Nagukore">GitHub</a> •
+    <a href="https://nageshs.vercel.app/">Portfolio</a> •
+    <a href="https://www.linkedin.com/in/nagesh-kore-7566b6254">LinkedIn</a>
   </p>
 </div>
 
 ---
 
-# Senior AI Engineer Portfolio — Systems & Production Impact
+<style>
+/* Readability & spacing tuned for GitHub (dark mode friendly) */
+:root{--muted:#9fb6c9;--accent:#9ed6ff;--bg:#060b10}
+body{background:var(--bg)}
+.card{background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));border-radius:12px;padding:14px;margin:12px 0;border:1px solid rgba(255,255,255,0.03)}
+.card h3{margin:0 0 8px 0}
+.small{color:var(--muted);font-size:13px}
+.kv{display:flex;gap:8px;flex-wrap:wrap}
+.kv > span{background:rgba(158,214,255,0.04);padding:6px 10px;border-radius:999px;color:var(--accent);font-weight:600}
+summary{outline:none}
+summary::-webkit-details-marker{display:none}
+.details-summary{display:flex;justify-content:space-between;align-items:center;padding:8px 0}
+@media (max-width:720px){.card{padding:12px;margin:10px 0}}
+</style>
 
-I build AI systems engineered for production: low-latency inference, reliable retrieval, safe action orchestration, and operational observability. This README focuses on engineering decisions and measurable impact — not feature lists. Below you'll find architecture diagrams, design trade-offs, deployment practices, and the systems I run in production.
+## Quick facts
 
----
-
-## Executive summary
-
-- Role: AI Engineer & Full‑Stack Systems Builder (Bangalore)
-- Focus: Retrieval-first AI, local LLM orchestration, multi-agent flows, memory architectures, realtime pipelines and scalable deployments
-- Outcome orientation: reduce human time-to-decision, increase automation coverage, and lower production incident time-to-recovery (MTTR)
-
----
-
-## AI Workflow Architecture (impact-first)
-
-<div align="center">
-  ![AI Architecture](assets/architecture.svg)
+<div class="card">
+  <div class="kv">
+    <span>AI Workflow Architect</span>
+    <span>RAG & Semantic Search</span>
+    <span>Local LLMs & Orchestration</span>
+    <span>Production Deployments</span>
+  </div>
+  <p class="small" style="margin-top:10px">Bangalore 🇮🇳 • nagesh.amcec@gmail.com • Open to senior roles and system‑level consulting</p>
 </div>
 
-Architecture highlights (engineer's lens):
+---
 
-- Ingress: heterogeneous inputs (voice, text, documents). I transform noisy inputs into normalized event envelopes with provenance metadata — this enables deterministic replay for debugging and improves retrieval precision by 18–30% in production checks.
-- Intent Router: coarse-grained intent classifier (KNOWLEDGE / ACTION / GENERAL). Routing early prevents misapplied actions and keeps control surfaces small — reduced false action triggers by 42% in staged rollouts.
-- Retrieval Layer: vector store + metadata filters supply context for LLMs. Production systems prioritize precision over recall; we prefer conservative context that reduces hallucination in business workflows.
-- Orchestrator: stateful microservice that sequences actions (confirmations, retries, compensations). Designed with idempotency and observable checkpoints so incidents can be resumed or rolled back.
+## Focus (short)
 
-Engineering impact: building these layers as separate, observable services makes incidents localizable — query-level telemetry shows whether a failure came from retrieval, inference, or orchestration.
+<details class="card">
+  <summary class="details-summary"><strong>Current focus</strong><span class="small">click to expand</span></summary>
+  <div style="padding-top:8px">
+    <ul>
+      <li>Local LLM infrastructure & inference orchestration</li>
+      <li>Retrieval‑first systems (RAG) with metadata filters and re‑ranking</li>
+      <li>Agentic flows with auditable actions & safe confirmations</li>
+      <li>Memory architectures (session → work → long‑term) optimized for cost & relevance</li>
+      <li>Realtime pipelines, observability and production runbooks</li>
+    </ul>
+  </div>
+</details>
 
 ---
 
-## Agentic AI — Safe, auditable agents
+## Engineering principles (one line each)
 
-I design agentic flows where autonomous agents act against external systems (APIs, databases, PRs) with guardrails:
-
-- Principle: Agents should be auditable, reversible, and require human confirmation for high-impact actions.
-- Design: Each agent action is a callable side-effect with a deterministic intent token, a dry-run mode, and a human-approval channel. Actions are recorded with input snapshot, decision rationale, and success/failure events.
-
-Terminal view (example):
-
-```bash
-$ ./agent-run --task "Sync meeting tasks" --dry-run
-[INFO] intent=EXTRACT_TASKS src=meeting-123
-[DRY-RUN] extracted=12 tasks, 3 with potential duplicates
-[REVIEW] /approve --id=agent/2026-07-21/xyz
-```
-
-Impact: This approach reduced accidental destructive runs in production pipelines to zero across two client deployments. Audit trails allowed quick rollback and post-mortem reconstruction.
-
----
-
-## Retrieval‑Augmented Generation (RAG) pipeline
-
-Key engineering decisions:
-
-1. Chunking strategy: semantic chunk size tuned per-domain — smaller chunks for technical docs, larger for conversational transcripts. Result: 17% increase in relevant context retrieval for query test suites.
-2. Metadata-first filters: deploy metadata tags (source, freshness, owner, doc-type) to filter results before vector similarity — drastically reduces false positives when documents are similar but contextually irrelevant.
-3. Two-stage retrieval: fast narrow-pass (ANN) followed by precise re-ranking (cross-encoder or heuristic). Balances latency and accuracy for interactive experiences.
-
-RAG pipeline (condensed):
-
-- Upload → chunk → embed → store (Qdrant)
-- Query → ANN recall → metadata filter → re-rank → context assembly
-- LLM prompt injection with conservative system directives
-
-Impact: In production QA, combining metadata filtering with re-ranking reduced hallucination occurrences in user-facing flows by ~35%.
-
----
-
-## Local LLM & Inference Orchestration
-
-Why local LLMs: latency control, privacy, and cost predictability in production. Production constraints shaped the design:
-
-- Multi-provider routing: route requests to local LLMs for low-latency critical paths and cloud LLMs for heavy reasoning when budget permits.
-- Batching & concurrency: implement smart batching for short queries to improve throughput and reduce per-request overhead.
-- Fallbacks and circuit breakers: automatically degrade to cached responses or smaller models under load.
-
-Terminal example — inference orchestrator:
-
-```bash
-# schedule: inference-runner monitors queue and dispatches
-$ ./inference-orchestrator --pool local,remote --model-priority local:vicuna-13b,remote:gptx
-[DISPATCH] request=abc -> local:vicuna-13b (latency_target=200ms)
-[OK] request=abc completed in 152ms
-```
-
-Impact: With orchestration and batching, we reduced median inference latency from 480ms to 160ms on production traffic patterns while controlling cost.
-
----
-
-## Memory Architecture (for assistants)
-
-Memory is a first-class concept in production assistants. My design principles:
-
-- Tiered memory: short-term (session), mid-term (work-item), long-term (profile), each with different TTLs and retrieval strategies.
-- Entity-aware indexing: store memory as structured records with entities and relations to improve recall precision.
-- Relevance decay: automatic scoring to age memories that no longer contribute to helpful responses.
-
-Design example (pseudocode):
-
-```text
-memory.write({type: 'meeting_action', entities:[task_id, assignee], ts: now(), source: 'transcript'})
-query -> memory.search({entities: [task_id], window: '30d'}) -> include in prompt
-```
-
-Impact: Replacing naïve full-chat-context with entity-aware memory reduced prompt size while maintaining relevant recall — saving ~25% in embedding cost and improving assistant coherence across long interactions.
-
----
-
-## Semantic Search & Vector Database (Qdrant)
-
-I operate vector stores with production considerations:
-
-- Hybrid indexing strategy: product-ready indices tuned for recall/precision trade-offs using HNSW and persistable snapshots for fast restores.
-- Metadata partitioning: partition vectors by team/org when multitenant to avoid cross-tenant leakage.
-- Monitor vector drift: periodic validation of embedding distributions to detect model-drift and retrain embeddings pipeline when necessary.
-
-Operational checklist:
-
-- regular snapshots (nightly) to S3
-- health checks via query latency & recall stability
-- quota-based autoscaling for Qdrant replicas
-
-Impact: Production systems using Qdrant maintained 99.9th percentile query latency under 60ms across peak loads after autoscaling and snapshot-based recovery planning.
-
----
-
-## System Design — Principles & trade-offs
-
-- Observability-first: traces, structured logs, metrics, and user-action telemetry are non-negotiable. Every action that changes state emits an event with a correlation id.
-- Small, focused services: separation of concerns makes it safe to iterate — retriever, orchestrator, inference, and sync layers can scale independently.
-- Idempotency & compensations: all external side-effects are designed as idempotent operations with compensating transactions where possible.
-- Security posture: RBAC at API gateway, signed audit entries for user-facing trade actions, and least-privilege service accounts.
-
-Design trade-off example: stronger consistency vs. latency. For task orchestration I accepted eventual consistency in the notification path to maintain sub-200ms user-facing latency while ensuring the database of record remained strongly consistent.
-
----
-
-## Deployment & Production Experience
-
-I operate multiple production services and manage continuous delivery pipelines with the following patterns:
-
-- API-first CI: each service publishes OpenAPI and runs contract tests in CI before deployments.
-- Canary deployments + progressive rollouts: traffic shifting with feature flags and realtime metrics monitoring.
-- Observability runbooks: automated alerts with playbooks and panic channels, plus structured post-mortem templates.
-
-Terminal: simplified deploy command
-
-```bash
-# deploy a microservice with canary policy
-$ deploy service/orchestrator --env=prod --canary=10%
-[CI] unit tests OK
-[CD] deployed canary -> monitoring
-[OBS] stable -> promoted to 100%
-```
-
-Impact: Using canary + autoscale reduced high-severity incidents during deploys by more than half and improved the time to detect regressions.
-
----
-
-## Selected Projects (engineering impact)
-
-- FOSYS — automated SCRUM orchestration (Best Paper IC‑AISMART 2025). Impact: reduced manual task triage time by 60% for pilot teams.
-- Enterprise RAG — production retrieval system for business knowledge. Impact: average time-to-answer for customer support dropped from 7m to under 90s.
-- VoxFlow — voice-first assistant with SSE streaming and intent routing. Impact: increased task completion rate by enabling action confirmation flows.
-- Clinichealthtree / SS Clinic — client deployments with production SLAs, realtime sync and secure RBAC.
-
-For each project, see the repository for architecture diagrams, engineering notes and operational runbooks.
-
----
-
-## Diagrams & terminal snapshots
-
-<div align="center">
-  <img src="assets/developer-id-card.svg" alt="Developer ID — Nagesh Kore" width="420" />
+<div class="card">
+  <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:10px">
+    <div><strong>Production‑first</strong><div class="small">ship observability, not a black box</div></div>
+    <div><strong>API‑first</strong><div class="small">clean contracts for each service</div></div>
+    <div><strong>Idempotent actions</strong><div class="small">compensating transactions & safe defaults</div></div>
+    <div><strong>Measure impact</strong><div class="small">latency SLOs, MTTR, automation coverage</div></div>
+  </div>
 </div>
 
-Terminal snippets (debug & telemetry):
+---
 
-```bash
-# example: query trace — find failure stage
-$ trace get --id trace-20260721-abc
-TRACE START: 2026-07-21T08:12:34Z
-  recv: websocket -> normalized event
-  intent: KNOWLEDGE -> routed to retriever
-  retriever: qdrant query (3 vectors) -> 180ms
-  re-ranker: cross-encoder -> 220ms
-  llm: local-vicuna -> 160ms
-  assemble -> 24ms
-TRACE END: success
-```
+## Architecture & Diagrams
+
+<div class="card">
+  <h3>AI Workflow (overview)</h3>
+  <div style="display:flex;gap:12px;align-items:flex-start;flex-wrap:wrap">
+    <img src="assets/architecture.svg" alt="AI Architecture" style="width:100%;max-width:760px;border-radius:8px" />
+    <div style="flex:1;min-width:260px">
+      <p class="small">Ingress → Intent Router → Retrieval (ANN + re‑rank) → Orchestration → Actions & Sync. Each stage emits traces and events for debugging.</p>
+      <details style="margin-top:8px"><summary class="small">Why this matters</summary>
+        <p class="small">Separation reduces blast radius: failures localize to retrieval, inference, or orchestration. Observability enables replay and faster post‑mortems.</p>
+      </details>
+    </div>
+  </div>
+</div>
 
 ---
 
-## How I measure success (KPIs)
+## Agentic AI — safe actions (card)
 
-- Automation coverage: % of workflows fully automated end-to-end with safe confirm paths
-- Mean time to recovery (MTTR): median time to resolve production incidents
-- Latency SLOs: p50/p95 inference and retrieval latencies under predefined limits
-- Accuracy: retrieval precision at K, hallucination rate in closed-domain tests
-- Cost efficiency: cost per useful response (including compute + storage + ops)
+<details class="card">
+  <summary class="details-summary"><strong>Agent design</strong><span class="small">dry‑run • audit • confirm</span></summary>
+  <div style="padding-top:8px">
+    <p class="small">Actions are callable, idempotent functions with a dry‑run mode. All agent decisions log inputs, rationale and outcome; high‑impact actions require an approval token before execution.</p>
 
----
-
-## Contact & collaboration
-
-I consult on system design, RAG pipelines, local LLMs, and productionizing AI assistants. If you have a system that needs reliable AI behaviour in real-world usage, let's discuss.
-
-- Email: nagesh.amcec@gmail.com
-- Portfolio: https://nageshs.vercel.app/
-- GitHub: https://github.com/Nagukore
+    <pre style="background:#021018;color:#9ed6ff;padding:12px;border-radius:8px;overflow:auto"><code># dry run example
+$ agent run --task "sync meeting tasks" --dry
+[DRY] extracted=12 tasks (3 duplicates)  
+# approve:
+$ agent approve --id=agent/2026-07-21/xyz
+</code></pre>
+  </div>
+</details>
 
 ---
 
-<div align="center">
-  <small style="color:#7f8c8d">This README is a living artifact — architecture diagrams and metrics are updated from CI where possible. Designed and maintained by Nagesh Kore © 2026</small>
+## RAG Pipeline (concise)
+
+<details class="card">
+  <summary class="details-summary"><strong>Retrieval architecture</strong><span class="small">chunk → embed → store → recall → re‑rank</span></summary>
+  <div style="padding-top:8px">
+    <ul>
+      <li><strong>Chunking:</strong> semantic size tuned per domain (technical docs vs transcripts)</li>
+      <li><strong>Metadata filters:</strong> filters run before ranking to reduce false positives</li>
+      <li><strong>Two‑stage recall:</strong> ANN for speed, cross‑encoder for precision</li>
+    </ul>
+    <p class="small">Result: fewer hallucinations, higher precision and stable latency profiles in production.</p>
+  </div>
+</details>
+
+---
+
+## Local LLMs & Inference
+
+<details class="card">
+  <summary class="details-summary"><strong>Inference orchestration</strong><span class="small">routing • batching • fallbacks</span></summary>
+  <div style="padding-top:8px">
+    <p class="small">Route low‑latency queries to local models, heavy reasoning to cloud LLMs. Use batching for throughput and circuit breakers to avoid overload. Cache safe responses and degrade gracefully.</p>
+    <pre style="background:#021018;color:#9ed6ff;padding:12px;border-radius:8px;overflow:auto"><code>$ orchestrator --pool local,remote --model-priority local:vicuna-13b,remote:gptx
+[DISPATCH] req=abc -> local:vicuna-13b
+[OK] req=abc completed 152ms
+</code></pre>
+  </div>
+</details>
+
+---
+
+## Memory Architecture
+
+<details class="card">
+  <summary class="details-summary"><strong>Tiered memory</strong><span class="small">session → work → profile</span></summary>
+  <div style="padding-top:8px">
+    <p class="small">Store structured memories with entities and relations. Use TTL and relevance decay to keep prompts small and costs predictable.</p>
+    <pre style="background:#021018;color:#9ed6ff;padding:12px;border-radius:8px;overflow:auto"><code>memory.write({type:'meeting_action',entities:[task,assignee],ts:now()})
+query -> memory.search({entities:[task],window:'30d'})
+</code></pre>
+  </div>
+</details>
+
+---
+
+## Semantic Search & Vector DB
+
+<details class="card">
+  <summary class="details-summary"><strong>Operational checklist (Qdrant)</strong><span class="small">snapshots • health • partitions</span></summary>
+  <div style="padding-top:8px">
+    <ol>
+      <li>Nightly snapshots to S3</li>
+      <li>Partition by tenant to avoid leakage</li>
+      <li>Monitor recall stability & embedding drift</li>
+    </ol>
+    <p class="small">With autoscaling and snapshots we keep p99 query latency under 60ms at peak for our production workloads.</p>
+  </div>
+</details>
+
+---
+
+## System Design & Deployments
+
+<details class="card">
+  <summary class="details-summary"><strong>Design trade‑offs</strong><span class="small">observability • idempotency • SLOs</span></summary>
+  <div style="padding-top:8px">
+    <p class="small">Favor small services with clear contracts. Observe every state change. Prefer eventual consistency on notification paths to achieve sub‑200ms UX while keeping DB of record strongly consistent.</p>
+
+    <p class="small"><strong>Deploy pattern:</strong> API‑first CI, canary rollouts, feature flags, runbooks and automated rollback hooks.</p>
+  </div>
+</details>
+
+---
+
+## Selected projects (impact cards)
+
+<div class="card">
+  <details>
+    <summary><strong>FOSYS</strong> — AI workflow automation (IC‑AISMART Best Paper)</summary>
+    <p class="small">Impact: reduced manual triage time by 60% in pilots. Architecture: transcription → task extraction → dependency graphs → RBAC orchestration.</p>
+    <p class="small">Repo: https://github.com/Nagukore/fosys</p>
+  </details>
+
+  <details>
+    <summary><strong>Enterprise RAG</strong> — production retrieval</summary>
+    <p class="small">Impact: reduced avg time‑to‑answer from 7m → 90s in support flows. Uses metadata filters + re‑ranking for precision.</p>
+    <p class="small">Repo: https://github.com/Nagukore/enterprise-rag-system</p>
+  </details>
+
+  <details>
+    <summary><strong>VoxFlow</strong> — voice assistant</summary>
+    <p class="small">Impact: improved task completion with streaming & intent routing. Repo: https://github.com/Nagukore/voxflow-ai</p>
+  </details>
+
+  <details>
+    <summary><strong>SS Clinic</strong> — healthcare production delivery</summary>
+    <p class="small">Impact: first real client deployment; PWA + AI chatbot. Live: https://www.ssclinickudlu.com</p>
+  </details>
+</div>
+
+---
+
+## Contact
+
+<div class="card">
+  <p class="small">Interested in senior engineering roles, system design reviews, or RAG/LLM architecture consulting. Email: nagesh.amcec@gmail.com • Portfolio: https://nageshs.vercel.app/</p>
+</div>
+
+---
+
+<div align="center" style="margin-top:6px">
+  <small style="color:#7f8c8d">Optimized for dark mode and mobile. This README is curated to present architecture, impact, and operational rigor — a living document maintained by Nagesh Kore © 2026</small>
 </div>
