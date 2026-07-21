@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="360" viewBox="0 0 720 360">
+  <defs>
+    <linearGradient id="termGrad" x1="0" x2="1">
+      <stop offset="0" stop-color="#00f5ff" />
+      <stop offset="1" stop-color="#b300ff" />
+    </linearGradient>
+    <filter id="glo"><feGaussianBlur stdDeviation="6" result="b"/></filter>
+  </defs>
+
+  <rect width="100%" height="100%" fill="#02060a" rx="8" />
+
+  <!-- window -->
+  <rect x="36" y="28" width="648" height="264" rx="10" fill="#07121a" stroke="url(#termGrad)" stroke-width="1" />
+
+  <!-- header dots -->
+  <g transform="translate(56,46)">
+    <circle cx="8" cy="8" r="6" fill="#ff5f56" />
+    <circle cx="32" cy="8" r="6" fill="#ffbd2e" />
+    <circle cx="56" cy="8" r="6" fill="#27c93f" />
+  </g>
+
+  <!-- code lines -->
+  <g transform="translate(56,78)" font-family="monospace" font-size="14" fill="#9ed6ff">
+    <text x="0" y="0">const server = startProd({</text>
+    <text x="0" y="22">  services: ["retriever", "orchestrator"],</text>
+    <text x="0" y="44">  telemetry: true,</text>
+    <text x="0" y="66">  retries: 3</text>
+    <text x="0" y="88">});</text>
+  </g>
+
+  <!-- blinking cursor -->
+  <rect x="220" y="150" width="10" height="18" fill="#00f5ff">
+    <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite" />
+  </rect>
+
+  <!-- glow accent -->
+  <ellipse cx="110" cy="280" rx="220" ry="24" fill="url(#termGrad)" opacity="0.06" filter="url(#glo)" />
+</svg>

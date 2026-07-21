@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" x2="1">
+      <stop offset="0" stop-color="#001827" />
+      <stop offset="1" stop-color="#0a0b14" />
+    </linearGradient>
+    <radialGradient id="particleGrad" fx="10%" fy="10%">
+      <stop offset="0%" stop-color="#00f5ff" stop-opacity="0.22" />
+      <stop offset="100%" stop-color="#b300ff" stop-opacity="0.02" />
+    </radialGradient>
+  </defs>
+  <rect width="100%" height="100%" fill="url(#bgGrad)" />
+
+  <!-- subtle grid -->
+  <g stroke="#07202a" stroke-opacity="0.12" stroke-width="1">
+    <path d="M0 100 H1600" />
+    <path d="M0 200 H1600" />
+    <path d="M0 300 H1600" />
+    <path d="M0 400 H1600" />
+    <path d="M0 500 H1600" />
+  </g>
+
+  <!-- floating particles field -->
+  <g>
+    <circle cx="120" cy="120" r="3" fill="url(#particleGrad)">
+      <animate attributeName="cy" values="120;100;120" dur="8s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="260" cy="40" r="4" fill="url(#particleGrad)">
+      <animate attributeName="cx" values="260;240;260" dur="6s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="620" cy="220" r="5" fill="url(#particleGrad)">
+      <animate attributeName="cy" values="220;240;220" dur="7s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="1320" cy="80" r="6" fill="url(#particleGrad)">
+      <animate attributeName="cy" values="80;60;80" dur="9s" repeatCount="indefinite" />
+    </circle>
+  </g>
+
+</svg>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="320" viewBox="0 0 520 320">
+  <defs>
+    <linearGradient id="pc" x1="0" x2="1">
+      <stop offset="0" stop-color="#00f5ff" />
+      <stop offset="1" stop-color="#b300ff" />
+    </linearGradient>
+    <filter id="g"><feGaussianBlur stdDeviation="6" /></filter>
+  </defs>
+  <rect width="100%" height="100%" rx="12" fill="#041018" />
+
+  <g transform="translate(18,18)">
+    <rect x="0" y="0" width="484" height="200" rx="10" fill="rgba(255,255,255,0.02)" stroke="rgba(255,255,255,0.03)" />
+    <text x="18" y="28" font-family="Inter, Roboto, sans-serif" font-size="16" fill="#ffffff">Project Title</text>
+
+    <g transform="translate(18,46)" font-family="monospace" font-size="12" fill="#9ed6ff">
+      <text x="0" y="0">• Short description: production-focus, low-latency, secure.</text>
+      <text x="0" y="20">• Stack: React · FastAPI · Qdrant · Postgres</text>
+    </g>
+
+    <rect x="18" y="110" width="120" height="56" rx="8" fill="#021018" stroke="url(#pc)" />
+    <text x="30" y="142" font-size="12" fill="#9ed6ff">View Repo</text>
+
+    <rect x="156" y="110" width="120" height="56" rx="8" fill="#021018" stroke="url(#pc)" />
+    <text x="168" y="142" font-size="12" fill="#9ed6ff">Live</text>
+  </g>
+
+  <g fill="#00f5ff" opacity="0.06">
+    <circle cx="460" cy="260" r="8"><animate attributeName="r" values="6;10;6" dur="5s" repeatCount="indefinite" /></circle>
+  </g>
+</svg>
