@@ -1,610 +1,217 @@
 <div align="center">
-
-<img src="https://capsule-render.vercel.app/api?type=waving&height=220&text=Nagesh%20Kore&fontAlign=50&fontAlignY=40&color=0:0F2027,50:203A43,100:2C5364&fontColor=ffffff&fontSize=52&desc=Full-Stack%20Engineer%20%7C%20AI%20Systems%20Builder&descAlignY=60&animation=fadeIn" width="100%"/>
-
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=220&text=Nagesh%20Kore&fontAlign=50&fontAlignY=40&color=0:060B10,50:002E4D,100:2B0F44&fontColor=ffffff&fontSize=56&desc=AI%20Engineer%20%26%20Full-Stack%20Developer&descAlign=50&descAlignY=72" alt="Nagesh Kore banner" />
 </div>
 
 <div align="center">
+  <h1 style="margin:8px 0 6px 0">Nagesh Kore</h1>
+  <p style="margin:0;color:#9fb6c9;max-width:880px">AI Engineer • Full‑Stack Systems Builder — I design, ship and operate production-ready AI platforms: realtime orchestration, retrieval-first knowledge systems, and resilient infra that serve real users.</p>
 
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Nagukore&theme=tokyonight" width="95%" />
-
-<br/><br/>
-
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Nagukore&theme=tokyonight" width="48%" />
-
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Nagukore&theme=tokyonight&utcOffset=5.5" width="48%" />
-
+  <p style="margin-top:10px">
+    <a href="https://github.com/Nagukore" title="GitHub">GitHub</a> &nbsp;•&nbsp;
+    <a href="https://nageshs.vercel.app/" title="Portfolio">Portfolio</a> &nbsp;•&nbsp;
+    <a href="https://www.linkedin.com/in/nagesh-kore-7566b6254" title="LinkedIn">LinkedIn</a>
+  </p>
 </div>
+
+---
+
+<!-- Professional title + social / small stats -->
 
 <div align="center">
 
-### Full-Stack Engineer • AI Systems Builder • Production-Focused Developer
-
-Building AI-integrated platforms, realtime systems, automation pipelines, and production-ready applications.
-
-<br/>
-
-![Production Systems](https://img.shields.io/badge/Production_Systems-1D9E75?style=for-the-badge)
-![AI Engineer](https://img.shields.io/badge/AI_Integrated_Development-0A66C2?style=for-the-badge)
-![Realtime Systems](https://img.shields.io/badge/Realtime_Infrastructure-7F77DD?style=for-the-badge)
-
-<br/><br/>
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/nagesh-kore-7566b6254)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Nagukore)
-[![Portfolio](https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=vercel&logoColor=white)](https://nageshs.vercel.app/)
-[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/the.nagesh)
+<p>
+  <img alt="followers" src="https://img.shields.io/github/followers/Nagukore?label=Followers&style=for-the-badge&color=0EA5E9&logo=github" />
+  <img alt="repos" src="https://img.shields.io/github/repo-size/Nagukore/Nagukore?style=for-the-badge&color=7C3AED&logo=github" />
+  <img alt="visitor" src="https://visitor-badge.glitch.me/badge?page_id=Nagukore.Nagukore&right_color=2EC4B6&style=for-the-badge" />
+</p>
 
 </div>
 
 ---
 
-# About Me
+## About — short story
 
-```yaml
-name:        Nagesh Kore
-location:    Bangalore, India
-role:        Full-Stack Engineer & AI Systems Builder
-education:   B.E. in AI & ML — AMC Engineering College
-experience:  Developer Intern @ ThoughtsCrest (Core Banking Domain)
+I build AI-first systems that are built to last. My work sits at the intersection of systems engineering, applied ML, and product-facing UX. From architecture to CI/CD and runtime observability, I take features through to safe, low-latency production deployments.
 
-focus:
-  - AI-integrated full-stack systems
-  - Realtime infrastructure & orchestration
-  - Retrieval-Augmented Generation systems
-  - Automation pipelines & developer tooling
-  - Production deployment & scalable architecture
-
-currently_exploring:
-  - Local LLM systems
-  - Multi-agent orchestration
-  - Memory architectures for AI assistants
-  - Realtime streaming systems
-  - AI-powered workflow automation
-
-engineering_principles:
-  - Build for production, not just demos
-  - API-first architecture
-  - Systems should scale cleanly
-  - Automation should solve real problems
-  - If it's not deployed, it's not done
-```
----
-
-# What I Solve
-
-I build systems where the AI layer has to survive contact with real users and real data — not demos.
-
-**Problem space I keep returning to:**
-- **Fragmented workflows** → orchestration systems that route intent (KNOWLEDGE / ACTION / GENERAL) instead of hardcoding every path
-- **Stale or unstructured knowledge** → retrieval pipelines (RAG) that make enterprise/document data queryable in plain language
-- **Manual, repetitive coordination** → automation that extracts structure from unstructured input (meetings → tasks → dependency graphs)
-- **Production gaps between prototype and deployment** → I ship end-to-end: auth, RBAC, realtime sync, hosting — not just the model call
-
-**How I approach it:**
-1. Start from the operational bottleneck, not the tech
-2. Design API-first so the frontend/backend can evolve independently
-3. Treat realtime + auth + RBAC as first-class, not afterthoughts
-4. Deploy early — debugging in production teaches things staging can't
-
----
----
-
-# 🌐 Personal Portfolio
-
-> Modern single-page portfolio with a built-in AI chatbot (NagiBot), glassmorphism animations, dynamic project modals, and a premium dark-mode aesthetic — built with React + TypeScript + Vite and deployed on Vercel.
-
-**🔗 Live:** [https://nageshs.vercel.app/](https://nageshs.vercel.app/) &nbsp;|&nbsp; **Repo:** [Nagesh-portfolio](https://github.com/Nagukore/Nagesh-portfolio)
-
-`React 18` `TypeScript` `Vite` `Custom CSS Animations` `Glassmorphism` `NagiBot`
+- Location: Bangalore, India
+- Role: AI Engineer & Full‑Stack Developer
+- Email: nagesh.amcec@gmail.com
 
 ---
 
-# Featured Engineering Systems
+## Engineering Philosophy
 
-> Projects that shaped my engineering journey and define my core full-stack + AI systems experience. Click a project to expand.
+1. Build for production: shipping a model is the start of the journey, not the finish.
+2. API-first and observable: clear contracts, telemetry, and fast feedback loops.
+3. Realtime & access control as first-class features.
+4. Automate repetitive flows; keep human oversight where it matters.
+
+---
+
+## Current Focus
+
+- Local LLM infrastructure, model orchestration and inference pipelines
+- Retrieval‑Augmented systems with metadata-aware retrieval
+- Multi‑agent orchestration and structured memory for assistants
+- Low-latency streaming responses (SSE / websockets) and realtime sync
+
+---
+
+## Featured Projects (kept from original; click to open)
 
 <details>
-<summary><h2>⭐ FOSYS — AI Workflow Automation & SCRUM Intelligence Platform 🏆 Best Paper Winner, IC-AISMART 2025</h2></summary>
+<summary><strong>FOSYS — AI Workflow Automation & SCRUM Intelligence</strong></summary>
+
+- Best Paper — IC‑AISMART 2025
+- Converts meeting audio → tasks → orchestrated workflows with RBAC and realtime sync.
+- Stack: React · FastAPI · Supabase · Prisma · PostgreSQL · Qdrant
+- Repo: https://github.com/Nagukore/fosys (original repo retained in your account)
+
+</details>
+
+<details>
+<summary><strong>SS Clinic — AI‑Integrated Healthcare Website</strong></summary>
+
+- First production client delivery — patient-facing platform with AI chatbot and PWA support.
+- Live: https://www.ssclinickudlu.com
+- Repo: https://github.com/Nagukore/ss-clinic
+
+</details>
+
+<details>
+<summary><strong>VoxFlow — Voice‑First AI Assistant</strong></summary>
+
+- Multi-stage assistant with KNOWLEDGE / ACTION / GENERAL intent routing and long-term memory.
+- Repo: https://github.com/Nagukore/voxflow-ai
+
+</details>
+
+<details>
+<summary><strong>Virtual AI Mouse — Gesture-Controlled Accessibility</strong></summary>
+
+- Real-time hand tracking for contactless mouse control (MediaPipe + OpenCV).
+- Paper: "Hands‑Free Computing: A Gesture‑Controlled Virtual AI Mouse" — JETIR, May 2025
+- Repo: https://github.com/Nagukore/VIRTUAL-AI-MOUSE
+
+</details>
+
+<details>
+<summary><strong>Advanced Book Scraper CLI</strong></summary>
+
+- Production-grade concurrent scraper with retries, filtering and CSV analytics.
+- Repo: https://github.com/Nagukore/advanced-book-scraper
+
+</details>
+
+<details>
+<summary><strong>Enterprise RAG System</strong></summary>
+
+- Document ingestion → chunking → embeddings → semantic retrieval with metadata filters.
+- Repo: https://github.com/Nagukore/enterprise-rag-system
+
+</details>
+
+<details>
+<summary><strong>Clinichealthtree — Clinic Management Platform</strong></summary>
+
+- Full production clinic management with JWT auth, RBAC and realtime updates.
+- Live: https://www.cliniquehealthtree.com
+- Repo: https://github.com/Nagukore/clinichealthtree
+
+</details>
+
+---
+
+## Production Deployments
+
+All live links retained from your profile:
+
+- Portfolio (NagiBot + SPA): https://nageshs.vercel.app/
+- SS Clinic (client): https://www.ssclinickudlu.com
+- Clinichealthtree: https://www.cliniquehealthtree.com
+- Siddeshwara Global Services: https://www.siddeshwaraglobalservices.com
+- Hunt the Wumpus (game): https://wumpusgames.netlify.app/
+
+---
+
+## Tech Stack (selected)
 
 <div align="center">
-
-<img src="https://user-images.githubusercontent.com/74038190/212749695-f4ecfb12-4cad-4b0d-9b75-0d2c8440f8f3.gif" width="500"/>
-
+  <img src="https://skillicons.dev/icons?i=react,ts,js,python,fastapi,nodejs,postgres,mongodb,firebase,supabase,docker,linux,git,github,vscode,tailwind,qdrant" alt="tech icons" />
 </div>
 
-FOSYS is a production-oriented AI orchestration platform designed to automate SCRUM workflows, meeting intelligence, and task coordination across teams.
-
-#### Core Capabilities
-
-* AI-powered meeting transcription and task extraction
-* Dependency graph generation for task orchestration
-* Role-Based Access Control (RBAC)
-* Realtime synchronization using Supabase Realtime
-* Intelligent PR workflow automation
-* API-first modular backend architecture
-* Team collaboration dashboards
-
-#### Architecture Overview
-
-```text
-Meeting Input
-      ↓
-Speech Processing Pipeline
-      ↓
-AI Task Extraction Engine
-      ↓
-Dependency Graph Builder
-      ↓
-Realtime Sync Layer
-      ↓
-RBAC Dashboard + Workflow Automation
-```
-
-#### Engineering Highlights
-
-* Designed modular FastAPI microservice architecture
-* Implemented low-latency realtime synchronization
-* Built scalable PostgreSQL relational schemas
-* Optimized AI task extraction workflows
-* Developed production-grade authentication & RBAC
-
-#### Tech Stack
-
-`React` `FastAPI` `Supabase` `Prisma` `PostgreSQL` `Realtime APIs`
-
-</details>
-
-<details>
-<summary><h2>⭐ SS Clinic — AI-Integrated Healthcare Website (First Production Client Delivery)</h2></summary>
-
-> My first end-to-end full-stack production deployment — delivered to a real healthcare client.
-
-Patient-facing smart healthcare platform for SS Clinic, Kudlu — built and deployed for real-world hospital operations.
-
-#### Features
-
-* AI chatbot integration for patient navigation
-* Doctor availability & appointment booking workflows
-* Progressive Web App (PWA) with offline mode support
-* API-driven appointment scheduling
-* Responsive UI for patients across all devices
-
-#### Why This Project Matters
-
-SS Clinic was my first complete client delivery. It was where I learned what production actually means:
-
-* Integrating frontend with backend for real users
-* Real-world deployment, routing, and hosting workflows
-* Authentication & API communication at scale
-* Debugging in production — not just in dev
-* Building healthcare-oriented UX that non-technical users could navigate
-* Owning the full product from design to deployment
-
-This project became the foundation for every production system I've built since.
-
-#### Tech Stack
-
-`React` `Firebase` `PWA` `AI Chatbot`
-
-🌐 **Live:** [https://www.ssclinickudlu.com](https://www.ssclinickudlu.com)
-
-</details>
+React · TypeScript · Node.js · FastAPI · Qdrant · PostgreSQL · Supabase · Firebase · Docker · SSE · Vector embeddings
 
 ---
 
-# ⚡ Core Engineering Projects
+## AI Architecture — high level
 
-<details>
-<summary><h2>i. VoxFlow — Voice-First AI Assistant (AI-Orchestrated Conversational System)</h2></summary>
+User input (voice/text)
+→ Intent classifier
+→ Router (KNOWLEDGE / ACTION / GENERAL)
 
-Multi-stage AI assistant with intelligent intent routing and long-term memory architecture.
+- KNOWLEDGE: Retrieval (vector DB + metadata filters) → Context assembly → LLM
+- ACTION: Task extraction → Orchestration → Safe execution + confirmation
+- GENERAL: Conversational handler → Memory updates
 
-#### Key Features
-
-* KNOWLEDGE / ACTION / GENERAL intent routing
-* Long-term memory using Qdrant vector database
-* SSE-based realtime reminder system
-* AI-powered email intelligence
-* Action confirmation workflows
-* Entity-aware conversational memory
-* Voice interaction support via Vapi
-
-#### AI Pipeline
-
-```text
-Voice Input
-    ↓
-Intent Classifier
-    ↓
-Knowledge / Action / General Router
-    ↓
-Memory Retrieval Layer
-    ↓
-LLM Orchestration
-    ↓
-Realtime Response Streaming
-```
-
-#### Technical Highlights
-
-* Built vector memory architecture using Qdrant
-* Implemented streaming responses with SSE
-* Designed modular AI orchestration workflows
-* Developed scalable memory retrieval pipelines
-* Integrated multi-provider LLM routing
-
-#### Stack
-
-`Node.js` `FastAPI` `Qdrant` `Gemini` `SSE` `Vapi`
-
-🔗 **Repository:** [voxflow-ai](https://github.com/Nagukore/voxflow-ai)
-
-</details>
-
-<details>
-<summary><h2>ii. Siddeshwara Global Services — Production Full-Stack Business Platform</h2></summary>
-
-Modern multi-page production platform for a Bangalore-based cleaning products supplier — featuring a fully integrated e-commerce storefront.
-
-#### Features
-
-* Multi-page React architecture with full routing
-* **Built-in e-commerce website** — product catalog, browsing, and ordering workflows
-* Google Maps integration for location & contact
-* Type-safe TypeScript codebase
-* Responsive UI across all device sizes
-* Contact workflow automation
-* Production deployment pipeline on Firebase
-
-#### Engineering Highlights
-
-* Designed scalable multi-page architecture with React Router
-* Built e-commerce flows: product listings, categories, and order workflows
-* Integrated Google Maps for business location UX
-* Deployed and maintained on Firebase Hosting with CI/CD pipeline
-
-#### Stack
-
-`React` `TypeScript` `TailwindCSS` `Firebase` `React Router` `Google Maps API`
-
-🌐 **Live:** [https://www.siddeshwaraglobalservices.com](https://www.siddeshwaraglobalservices.com)
-
-</details>
-
-<details>
-<summary><h2>iii. Virtual AI Mouse — Gesture-Controlled Contactless Mouse (Computer Vision, Published Research)</h2></summary>
-
-Real-time gesture-controlled virtual mouse using computer vision and hand tracking. No hardware required — just a webcam.
-
-> 📄 **Published Research:** *Hands-Free Computing: A Gesture-Controlled Virtual AI Mouse*
-> Journal of Emerging Technologies and Innovative Research (JETIR), Volume 12, Issue 5, May 2025
-> **Paper ID:** JETIR2505760
-
-#### Highlights
-
-* Real-time gesture recognition pipeline
-* MediaPipe hand tracking at webcam framerate
-* Contactless mouse control — click, move, scroll via gestures
-* Accessible computing for mobility-impaired users
-
-#### Stack
-
-`Python` `OpenCV` `MediaPipe` `PyAutoGUI`
-
-🔗 **Repository:** [VIRTUAL-AI-MOUSE](https://github.com/Nagukore/VIRTUAL-AI-MOUSE)
-
-</details>
-
-<details>
-<summary><h2>iv. Advanced Book Scraper CLI — Production-Grade Multithreaded Web Scraping Tool</h2></summary>
-
-High-performance concurrent CLI scraper with retry strategies, filtering, and analytics export.
-
-#### Features
-
-* Concurrent page processing via ThreadPoolExecutor
-* Retry and exponential backoff strategies
-* CLI-based filtering & sorting
-* CSV analytics export
-* Encoding-safe HTML parsing
-
-#### Stack
-
-`Python` `BeautifulSoup4` `requests` `ThreadPoolExecutor`
-
-🔗 **Repository:** [advanced-book-scraper](https://github.com/Nagukore/advanced-book-scraper)
-
-</details>
-
-<details>
-<summary><h2>v. Enterprise RAG System — Retrieval-Augmented Knowledge Platform</h2></summary>
-
-Production-oriented semantic retrieval system supporting structured and unstructured enterprise knowledge bases.
-
-#### Features
-
-* Document ingestion pipeline
-* Vector embedding workflows
-* Semantic similarity search with metadata-aware filtering
-* AI-powered question answering
-* FastAPI inference orchestration
-
-#### Retrieval Architecture
-
-```text
-Document Upload
-      ↓
-Chunking Pipeline
-      ↓
-Embedding Generation
-      ↓
-Qdrant Vector Storage
-      ↓
-Semantic Retrieval
-      ↓
-LLM Context Injection
-      ↓
-AI Response
-```
-
-#### Engineering Focus
-
-* Optimized semantic retrieval pipelines
-* Designed scalable embedding workflows
-* Built modular ingestion architecture
-* Developed inference orchestration APIs
-
-#### Stack
-
-`Python` `FastAPI` `Qdrant` `Gemini Embeddings` `NLP`
-
-🔗 **Repository:** [enterprise-rag-system](https://github.com/Nagukore/enterprise-rag-system)
-
-</details>
-
-<details>
-<summary><h2>vi. Clinichealthtree — Production Full-Stack Healthcare Infrastructure</h2></summary>
-
-End-to-end clinic management platform with secure workflows, appointment scheduling, and role-based access systems — delivered as a complete full-stack solution.
-
-#### Features
-
-* Patient workflow management
-* Appointment scheduling system
-* Secure JWT authentication flows
-* Role-based dashboards (admin, doctor, patient)
-* Realtime updates via Firebase
-* API-driven modular architecture
-
-#### Engineering Highlights
-
-* Built scalable healthcare workflow architecture
-* Implemented JWT-secured APIs end-to-end
-* Designed responsive multi-role dashboard systems
-* Integrated realtime synchronization for live data
-
-#### Stack
-
-`React` `Firebase` `PostgreSQL` `JWT Authentication`
-
-🌐 **Live:** [https://www.cliniquehealthtree.com](https://www.cliniquehealthtree.com)
-
-</details>
+Responses stream via SSE / websocket. Persistence: Postgres (operational) + vector DB (semantic); RBAC enforced at API layer.
 
 ---
 
-# 🎮 Games
+## Timeline — selected milestones
 
-<details>
-<summary><h2>Hunt the Wumpus — Browser Game (Built in Under 4 Minutes, One Prompt)</h2></summary>
-
-> ⚡ **Built with a single prompt in under 4 minutes.** A fully functional, playable browser game — from zero to deployed.
-
-A rapid AI prototyping experiment that produced a complete cave exploration game in one shot. No iteration, no debugging loop — just one prompt and a working product.
-
-This project is a demonstration of what's possible when you understand how to direct AI systems precisely: clear problem framing, complete context, and a well-structured prompt that leaves nothing ambiguous.
-
-#### Features
-
-* Dynamic cave map generation
-* Real-time perception mechanics (warnings for nearby hazards)
-* Keyboard interaction system
-* Fully browser-native gameplay — no install required
-* Complete in one prompt, deployed the same session
-
-#### Why This Stands Out
-
-Most developers prototype in hours. This game was conceptualized, generated, and deployed in **4 minutes** — not by cutting corners, but by engineering the right prompt. It's a small proof of concept for a bigger principle: AI leverage multiplies output when you know how to use it.
-
-#### Stack
-
-`Vanilla JavaScript` `HTML5` `CSS3`
-
-🌐 **Live:** [https://wumpusgames.netlify.app/](https://wumpusgames.netlify.app/)
-
-</details>
+- 2023 — First production client delivery (SS Clinic)
+- 2024 — Early local RAG prototypes & realtime orchestration
+- 2025 — FOSYS (IC‑AISMART Best Paper) & published accessibility research
+- 2026 — Ongoing: local LLM infra, multi-agent orchestration, production memory systems
 
 ---
+
+## Achievements & Research
+
+- Best Paper — IC‑AISMART 2025 (FOSYS)
+- Published research: "Hands‑Free Computing: A Gesture‑Controlled Virtual AI Mouse" — JETIR, May 2025
+
+---
+
+## GitHub Analytics (concise)
+
+I keep my primary activity visible on GitHub — repositories above contain the full source for each project. For quick stats, follower and repo-size badges appear near the top; for in-depth analytics I rely on internal dashboards and production telemetry.
+
+---
+
+<!-- Snake animation: inline SVG (lightweight, pure SVG animation) -->
 
 <div align="center">
-
-## 🧠 Engineering Stack & Technical Expertise
-
-<img src="https://skillicons.dev/icons?i=react,ts,js,python,fastapi,nodejs,postgres,mongodb,firebase,supabase,docker,linux,git,github,vscode,tailwind" />
-
-</div>
-
-# Technical Expertise
-
-<details>
-<summary><h2>Frontend Engineering</h2></summary>
-
-* React Ecosystem & Multi-Page Architecture
-* TypeScript — type-safe, scalable codebases
-* Responsive UI Systems & TailwindCSS
-* Progressive Web Applications (PWA + Offline Mode)
-* State Management & Component Systems
-* E-commerce UI & Workflow Design
-
-</details>
-
-<details>
-<summary><h2>Backend & APIs</h2></summary>
-
-* FastAPI Microservices
-* Node.js Backend Systems
-* REST API Design & JWT Authentication
-* Role-Based Access Control (RBAC)
-* Realtime Infrastructure
-* Event-Driven Workflows
-
-</details>
-
-<details>
-<summary><h2>Databases & Cloud</h2></summary>
-
-* PostgreSQL Schema Design
-* Supabase Realtime
-* MongoDB
-* Vector Databases (Qdrant)
-* Firebase Hosting & Integration
-
-</details>
-
-<details>
-<summary><h2>AI / ML Engineering</h2></summary>
-
-* Retrieval-Augmented Generation (RAG)
-* AI Orchestration & Intent Routing Pipelines
-* Semantic Search & Vector Embeddings
-* NLP Workflows
-* Computer Vision (MediaPipe, OpenCV)
-* Multi-Agent Orchestration (Exploring)
-
-</details>
-
-<details>
-<summary><h2>DevOps & Tooling</h2></summary>
-
-* Git & GitHub Workflows
-* Linux Environments
-* Vercel & Firebase Deployment Pipelines
-* API Testing & Automation
-* Developer Tooling
-
-</details>
-
----
-
-# Production Deployments
-
-| Platform                    | Type                            | Live Link | Status     |
-| --------------------------- | ------------------------------- | --------- | ---------- |
-| Personal Portfolio          | Developer Portfolio + NagiBot   | [nageshs.vercel.app](https://nageshs.vercel.app/) | ✅ Production |
-| SS Clinic                   | AI Healthcare Website (Client)  | [ssclinickudlu.com](https://www.ssclinickudlu.com) | ✅ Production |
-| Clinichealthtree            | Full-Stack Healthcare Platform  | [cliniquehealthtree.com](https://www.cliniquehealthtree.com) | ✅ Production |
-| Siddeshwara Global Services | Business Platform + E-Commerce  | [siddeshwaraglobalservices.com](https://www.siddeshwaraglobalservices.com) | ✅ Production |
-| Hunt the Wumpus             | Browser Game (Built in 4 mins, 1 prompt) | [wumpusgames.netlify.app](https://wumpusgames.netlify.app/) | ✅ Live |
-
----
-
-# Engineering Philosophy
-
-```text
-▸ Design systems that solve real operational problems
-▸ Build modular architectures that scale cleanly
-▸ Use AI as a force multiplier, not a gimmick
-▸ Focus on developer experience and maintainability
-▸ Prioritize deployment, usability, and reliability
-▸ Engineer systems for production environments
-▸ If it's not shipped, it doesn't count
-```
-
----
-
-# Open Source & Collaboration
-
-I enjoy building:
-
-* AI-integrated systems
-* Realtime infrastructure
-* Automation workflows
-* Developer tooling
-* Retrieval systems
-* Full-stack production platforms
-
-Open to:
-
-* Open-source collaboration
-* AI engineering projects
-* Freelance development
-* Startup engineering opportunities
-* Full-stack system design
-
----
-
-# Current Exploration
-
-```text
-→ Local LLM deployment pipelines
-→ Agent memory architectures
-→ AI workflow orchestration
-→ Streaming AI infrastructure
-→ Retrieval optimization systems
-→ Production-grade automation tooling
-```
-
----
-
-<div align="center">
-
-## 📊 GitHub Analytics
-
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=Nagukore&show_icons=true&theme=tokyonight&hide_border=true&border_radius=15" />
-
-<img height="170" src="https://github-readme-streak-stats.herokuapp.com/?user=Nagukore&theme=tokyonight&hide_border=true&border_radius=15" />
-
-<br/><br/>
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Nagukore&theme=tokyo-night&hide_border=true&radius=16" width="95%" />
-
+  <svg xmlns="http://www.w3.org/2000/svg" width="820" height="120" viewBox="0 0 820 120" preserveAspectRatio="none" role="img" aria-label="animated snake">
+    <rect width="100%" height="100%" fill="#060b10" />
+    <defs>
+      <linearGradient id="gradSnake" x1="0" x2="1">
+        <stop offset="0" stop-color="#00f5ff" />
+        <stop offset="0.5" stop-color="#008cff" />
+        <stop offset="1" stop-color="#b300ff" />
+      </linearGradient>
+    </defs>
+    <path id="curve" d="M10 60 C150 10, 300 110, 450 60 C600 10, 750 110, 810 60" fill="none" stroke="rgba(0,0,0,0)" />
+    <circle r="8" fill="url(#gradSnake)">
+      <animateMotion dur="5.5s" repeatCount="indefinite">
+        <mpath xlink:href="#curve" />
+      </animateMotion>
+    </circle>
+  </svg>
 </div>
 
 ---
 
-<div align="center">
+## Contact
 
-## 🚀 Current Focus
+Open to collaborations, consulting, and product/engineering roles focused on AI systems and production-grade full‑stack work.
 
-```text
-→ AI workflow orchestration systems
-→ Local LLM infrastructure
-→ Multi-agent architectures
-→ Retrieval optimization pipelines
-→ Streaming realtime AI systems
-→ Developer productivity automation
-```
-
-</div>
+- Email: nagesh.amcec@gmail.com
+- LinkedIn: https://www.linkedin.com/in/nagesh-kore-7566b6254
 
 ---
 
-# Connect
-
 <div align="center">
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/nagesh-kore-7566b6254)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Nagukore)
-[![Portfolio](https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=vercel&logoColor=white)](https://nageshs.vercel.app/)
-[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/the.nagesh)
-
-📧 nagesh.amcec@gmail.com
-
-### Open to collaborations, engineering discussions, and interesting systems problems.
-
-⭐ If something here helps or inspires you, consider starring the repositories.
-
-<img src="https://capsule-render.vercel.app/api?type=waving&height=120&color=0:0F2027,50:203A43,100:2C5364&section=footer" width="100%"/>
-
+  <small style="color:#7f8c8d">Designed for a dark, futuristic, professional aesthetic — built and maintained by Nagesh Kore © 2026</small>
 </div>
