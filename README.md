@@ -17,7 +17,7 @@ Building AI-integrated platforms, realtime systems, automation pipelines, and pr
 [![Portfolio](https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=vercel&logoColor=white)](https://nageshs.netlify.app/)
 [![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/the.nagesh)
 
-**[About](#about-me) · [What I Solve](#what-i-solve) · [Featured Systems](#featured-engineering-systems) · [Projects](#core-engineering-projects) · [Stack](#tech-stack) · [Deployments](#production-deployments) · [Connect](#connect)**
+**[About](#about-me) · [Recognition](#recognition) · [What I Solve](#what-i-solve) · [Featured Systems](#featured-engineering-systems) · [Projects](#core-engineering-projects) · [Stack](#tech-stack) · [Deployments](#production-deployments) · [Connect](#connect)**
 
 <br/>
 
@@ -58,6 +58,17 @@ Building AI-integrated platforms, realtime systems, automation pipelines, and pr
 
 ---
 
+## Recognition
+
+| | |
+|---|---|
+| 🏆 **Best Paper Award** — IC-AISMART 2025 | Awarded for **FOSYS**, an AI workflow automation & SCRUM intelligence platform |
+| 💰 **Funded Project** — KCSTC, Government of Karnataka | **FOSYS** selected for funding by the Karnataka State Council for Science and Technology |
+| 📄 **Published Research** — Grenze International Journal | FOSYS research paper — [read on Grenze](https://thegrenze.com/abstract/journal/7548) |
+| 📄 **Published Research** — JETIR, Vol. 12, Issue 5 (May 2025) | *Hands-Free Computing: A Gesture-Controlled Virtual AI Mouse* · Paper ID JETIR2505760 |
+
+---
+
 ## What I Solve
 
 I build systems where the AI layer has to survive contact with real users and real data — not demos.
@@ -89,9 +100,9 @@ I build systems where the AI layer has to survive contact with real users and re
 ## Featured Engineering Systems
 
 <details>
-<summary><h3>⭐ FOSYS — AI Workflow Automation & SCRUM Intelligence Platform 🏆 Best Paper Winner, IC-AISMART 2025</h3></summary>
+<summary><h3>⭐ FOSYS — AI Workflow Automation & SCRUM Intelligence Platform 🏆 Best Paper Winner, IC-AISMART 2025 · 💰 Funded by KCSTC (Govt. of Karnataka)</h3></summary>
 
-Production-oriented AI orchestration platform automating SCRUM workflows, meeting intelligence, and task coordination across teams.
+Production-oriented AI orchestration platform automating SCRUM workflows, meeting intelligence, and task coordination across teams. Selected for funding by the **Karnataka State Council for Science and Technology (KCSTC)**, and published in the **Grenze International Journal** — [read the paper](https://thegrenze.com/abstract/journal/7548).
 
 **Core Capabilities**
 - AI-powered meeting transcription and task extraction
@@ -102,9 +113,13 @@ Production-oriented AI orchestration platform automating SCRUM workflows, meetin
 - API-first modular backend architecture
 
 **Architecture**
-```text
-Meeting Input → Speech Processing → AI Task Extraction Engine
-→ Dependency Graph Builder → Realtime Sync Layer → RBAC Dashboard
+```mermaid
+flowchart LR
+    A[Meeting Input] --> B[Speech Processing]
+    B --> C[AI Task Extraction Engine]
+    C --> D[Dependency Graph Builder]
+    D --> E[Realtime Sync Layer]
+    E --> F[RBAC Dashboard]
 ```
 
 **Stack:** `React` `FastAPI` `Supabase` `Prisma` `PostgreSQL` `Realtime APIs`
@@ -136,9 +151,16 @@ My first end-to-end full-stack production deployment — delivered to a real hea
 A production-grade system that runs a YouTube Shorts channel end to end — discovers topics, writes and quality-gates scripts, generates images/voiceover/subtitles/video, uploads, and **learns from real engagement data** to improve the next run. Human-in-the-loop by design: every upload defaults to private until a human approves it.
 
 **Pipeline**
-```text
-research → script (best-of-3 + LLM judge) → metadata → thumbnail/scenes
-→ images → voiceover → subtitles → video render → upload (private) + ledger
+```mermaid
+flowchart LR
+    A[Research] --> B["Script<br/>(best-of-3 + LLM judge)"]
+    B --> C[Metadata]
+    C --> D["Thumbnail /<br/>Scene Prompts"]
+    D --> E[Images]
+    E --> F[Voiceover]
+    F --> G[Subtitles]
+    G --> H[Video Render]
+    H --> I["Upload (Private)<br/>+ Ledger"]
 ```
 
 **What makes it interesting**
@@ -168,9 +190,13 @@ Multi-stage AI assistant with intelligent intent routing and long-term memory ar
 - Voice interaction via Vapi
 
 **Pipeline**
-```text
-Voice Input → Intent Classifier → Router → Memory Retrieval
-→ LLM Orchestration → Realtime Response Streaming
+```mermaid
+flowchart LR
+    A[Voice Input] --> B[Intent Classifier]
+    B --> C["Router<br/>(Knowledge / Action / General)"]
+    C --> D[Memory Retrieval]
+    D --> E[LLM Orchestration]
+    E --> F[Realtime Response Streaming]
 ```
 
 **Stack:** `Node.js` `FastAPI` `Qdrant` `Gemini` `SSE` `Vapi`
@@ -184,9 +210,14 @@ Voice Input → Intent Classifier → Router → Memory Retrieval
 Production-oriented semantic retrieval system for structured and unstructured enterprise knowledge bases.
 
 **Retrieval Architecture**
-```text
-Document Upload → Chunking Pipeline → Embedding Generation
-→ Qdrant Vector Storage → Semantic Retrieval → LLM Context Injection → AI Response
+```mermaid
+flowchart LR
+    A[Document Upload] --> B[Chunking Pipeline]
+    B --> C[Embedding Generation]
+    C --> D[Qdrant Vector Storage]
+    D --> E[Semantic Retrieval]
+    E --> F[LLM Context Injection]
+    F --> G[AI Response]
 ```
 
 **Stack:** `Python` `FastAPI` `Qdrant` `Gemini Embeddings` `NLP`
