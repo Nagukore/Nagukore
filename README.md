@@ -17,7 +17,11 @@ Building AI-integrated platforms, realtime systems, automation pipelines, and pr
 [![Portfolio](https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=vercel&logoColor=white)](https://nageshs.netlify.app/)
 [![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/the.nagesh)
 
-**[About](#about-me) · [What I Solve](#what-i-solve) · [Featured Systems](#featured-engineering-systems) · [Projects](#core-engineering-projects) · [Stack](#technical-expertise) · [Deployments](#production-deployments) · [Connect](#connect)**
+**[About](#about-me) · [What I Solve](#what-i-solve) · [Featured Systems](#featured-engineering-systems) · [Projects](#core-engineering-projects) · [Stack](#tech-stack) · [Deployments](#production-deployments) · [Connect](#connect)**
+
+<br/>
+
+**Open to:** `AI Engineering` · `Software Development` · `Product Engineering` · `Research Collaborations`
 
 </div>
 
@@ -25,32 +29,32 @@ Building AI-integrated platforms, realtime systems, automation pipelines, and pr
 
 ## About Me
 
-```yaml
-name:        Nagesh Kore
-location:    Bangalore, India
-role:        Full-Stack Engineer & AI Systems Builder
-education:   B.E. in AI & ML — AMC Engineering College (2026)
-experience:  Developer Intern @ ThoughtsCrest (Core Banking Domain)
+<table>
+<tr>
+<td width="50%" valign="top">
 
-focus:
-  - AI-integrated full-stack systems
-  - Realtime infrastructure & orchestration
-  - Retrieval-Augmented Generation systems
-  - Automation pipelines & developer tooling
-  - Production deployment & scalable architecture
+**Role** — Full-Stack Engineer & AI Systems Builder
+**Location** — Bangalore, India
+**Education** — B.E. in AI & ML, AMC Engineering College (2026)
+**Experience** — Developer Intern @ ThoughtsCrest (Core Banking)
 
-currently_exploring:
-  - Local LLM deployment pipelines
-  - Multi-agent orchestration
-  - Agent memory architectures
-  - Realtime streaming AI infrastructure
+</td>
+<td width="50%" valign="top">
 
-engineering_principles:
-  - Build for production, not just demos
-  - API-first architecture
-  - Systems should scale cleanly
-  - If it's not deployed, it's not done
-```
+**Core Focus**
+- AI-integrated full-stack systems
+- Realtime infrastructure & orchestration
+- Retrieval-Augmented Generation (RAG)
+- Autonomous & scheduled automation pipelines
+- Production deployment at scale
+
+</td>
+</tr>
+</table>
+
+> *"If it's not deployed, it's not done."* — API-first architecture, realtime + auth + RBAC as first-class citizens, deploy early because production teaches what staging can't.
+
+**Currently exploring:** Local LLM deployment pipelines · Multi-agent orchestration · Agent memory architectures · Self-improving/feedback-driven pipelines
 
 ---
 
@@ -123,6 +127,27 @@ My first end-to-end full-stack production deployment — delivered to a real hea
 **Stack:** `React` `Firebase` `PWA` `AI Chatbot`
 
 **Live:** [ssclinickudlu.com](https://www.ssclinickudlu.com)
+
+</details>
+
+<details>
+<summary><h3>⭐ AI YouTube Automation System — Self-Improving Content Pipeline (LangGraph)</h3></summary>
+
+A production-grade system that runs a YouTube Shorts channel end to end — discovers topics, writes and quality-gates scripts, generates images/voiceover/subtitles/video, uploads, and **learns from real engagement data** to improve the next run. Human-in-the-loop by design: every upload defaults to private until a human approves it.
+
+**Pipeline**
+```text
+research → script (best-of-3 + LLM judge) → metadata → thumbnail/scenes
+→ images → voiceover → subtitles → video render → upload (private) + ledger
+```
+
+**What makes it interesting**
+- **Best-of-N script generation with an LLM judge** — 3 candidate drafts at varied temperature, ranked against an engagement rubric (hook, specificity, payoff, quotable close); only the winner renders
+- **Closed-loop feedback** — weekly job pulls real view/like/comment stats via YouTube Data API, scores content, and reweights future topic selection — no re-training, just measured arithmetic steering the next run
+- **Workflow, not agent, by design** — built on LangGraph but as a fixed, deterministic pipeline (not autonomous tool-picking), so a 6am unattended run stays predictable, resumable, and cost-bounded
+- **Runs on $0** — every stage has a free/local default (OpenRouter free-tier LLMs, Pollinations.ai images, Edge TTS voiceover, MoviePy/FFmpeg rendering); dual-mode architecture runs as zero-infra GitHub Actions or as a full FastAPI + Celery + PostgreSQL + React dashboard
+
+**Stack:** `LangGraph` `FastAPI` `Celery` `PostgreSQL` `Redis` `React` `TypeScript` `GitHub Actions` `OpenRouter` `YouTube Data API v3`
 
 </details>
 
@@ -225,46 +250,55 @@ A rapid AI-prototyping experiment: a complete cave exploration game generated fr
 
 ---
 
-## Technical Expertise
+## Tech Stack
 
-<div align="center">
-<img src="https://skillicons.dev/icons?i=react,ts,js,python,fastapi,nodejs,postgres,mongodb,firebase,supabase,docker,linux,git,github,vscode,tailwind" />
-</div>
+**Languages**
 
-<details>
-<summary><h3>Frontend Engineering</h3></summary>
+<img src="https://skillicons.dev/icons?i=python,js,ts,html,css,cpp" />
 
-React ecosystem & multi-page architecture · TypeScript · Responsive UI & TailwindCSS · Progressive Web Apps (offline mode) · State management · E-commerce UI/workflow design
+**Frontend**
 
-</details>
+<img src="https://skillicons.dev/icons?i=react,redux,html,css,js,tailwind" />
 
-<details>
-<summary><h3>Backend & APIs</h3></summary>
+React ecosystem & multi-page architecture · Responsive UI systems · Progressive Web Apps (offline mode) · State management · E-commerce UI/workflow design
 
-FastAPI microservices · Node.js backend systems · REST API design & JWT auth · Role-Based Access Control (RBAC) · Realtime infrastructure · Event-driven workflows
+**Backend & APIs**
 
-</details>
+<img src="https://skillicons.dev/icons?i=fastapi,nodejs,express" />
 
-<details>
-<summary><h3>Databases & Cloud</h3></summary>
+REST API design & JWT auth · Role-Based Access Control (RBAC) · Realtime infrastructure (SSE, Supabase Realtime) · Event-driven workflows
 
-PostgreSQL schema design · Supabase Realtime · MongoDB · Vector databases (Qdrant) · Firebase hosting & integration
+**AI / Machine Learning**
 
-</details>
+<img src="https://skillicons.dev/icons?i=pytorch,tensorflow,opencv" />
 
-<details>
-<summary><h3>AI / ML Engineering</h3></summary>
+![Gemini API](https://img.shields.io/badge/Gemini_API-4285F4?style=flat-square&logoColor=white)
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logoColor=white)
+![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square&logoColor=white)
+![Prompt Engineering](https://img.shields.io/badge/Prompt_Engineering-8A2BE2?style=flat-square&logoColor=white)
+![RAG](https://img.shields.io/badge/RAG-1D9E75?style=flat-square&logoColor=white)
+![Conversational AI](https://img.shields.io/badge/Conversational_AI-1D9E75?style=flat-square&logoColor=white)
+![Workflow Automation](https://img.shields.io/badge/Workflow_Automation-FF7A00?style=flat-square&logoColor=white)
 
-Retrieval-Augmented Generation (RAG) · AI orchestration & intent routing · Semantic search & vector embeddings · NLP workflows · Computer vision (MediaPipe, OpenCV) · Multi-agent orchestration (exploring)
+Retrieval-Augmented Generation · AI orchestration & intent routing · LLM-as-judge evaluation patterns · Semantic search & vector embeddings · NLP workflows · Computer vision (MediaPipe, OpenCV) · Multi-agent orchestration (exploring)
 
-</details>
+**Databases & Vector Storage**
 
-<details>
-<summary><h3>DevOps & Tooling</h3></summary>
+<img src="https://skillicons.dev/icons?i=postgres,mongodb,firebase,supabase,redis" />
 
-Git & GitHub workflows · Linux environments · Vercel & Firebase deployment pipelines · API testing & automation
+![Qdrant Vector DB](https://img.shields.io/badge/Qdrant_Vector_DB-DC244C?style=flat-square&logoColor=white)
 
-</details>
+**Cloud, DevOps & Tooling**
+
+<img src="https://skillicons.dev/icons?i=docker,githubactions,git,github,postman,vscode,linux" />
+
+**Automation & Integration**
+
+![n8n](https://img.shields.io/badge/n8n-EA4B71?style=flat-square&logoColor=white)
+![REST APIs](https://img.shields.io/badge/REST_APIs-2496ED?style=flat-square&logoColor=white)
+![API Integration](https://img.shields.io/badge/API_Integration-2496ED?style=flat-square&logoColor=white)
+![Automation Pipelines](https://img.shields.io/badge/Automation_Pipelines-1D9E75?style=flat-square&logoColor=white)
+![CI/CD Scheduling](https://img.shields.io/badge/CI%2FCD_Scheduling-1D9E75?style=flat-square&logoColor=white)
 
 ---
 
@@ -277,6 +311,7 @@ Git & GitHub workflows · Linux environments · Vercel & Firebase deployment pip
 | Clinichealthtree | Full-Stack Healthcare Platform | [cliniquehealthtree.com](https://www.cliniquehealthtree.com) | ✅ Production |
 | Siddeshwara Global Services | Business Platform + E-Commerce | [siddeshwaraglobalservices.com](https://www.siddeshwaraglobalservices.com) | ✅ Production |
 | Hunt the Wumpus | Browser Game (built in 4 min, 1 prompt) | [wumpusgames.netlify.app](https://wumpusgames.netlify.app/) | ✅ Live |
+| AI YouTube Automation System | Self-improving content pipeline (LangGraph) | GitHub Actions — daily | ✅ Running |
 
 ---
 
