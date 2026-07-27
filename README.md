@@ -9,6 +9,8 @@ Building AI-integrated platforms, realtime systems, automation pipelines, and pr
 ![Production Systems](https://img.shields.io/badge/Production_Systems-1D9E75?style=for-the-badge)
 ![AI Engineer](https://img.shields.io/badge/AI_Integrated_Development-0A66C2?style=for-the-badge)
 ![Realtime Systems](https://img.shields.io/badge/Realtime_Infrastructure-7F77DD?style=for-the-badge)
+![Award Winning](https://img.shields.io/badge/🏆_Award--Winning-FFB800?style=for-the-badge&labelColor=1a1a1a)
+![Govt Funded](https://img.shields.io/badge/💰_Govt--Funded_Researcher-1D9E75?style=for-the-badge&labelColor=1a1a1a)
 
 <br/>
 
@@ -285,7 +287,7 @@ A rapid AI-prototyping experiment: a complete cave exploration game generated fr
 
 **Languages**
 
-<img src="https://skillicons.dev/icons?i=python,js,ts,html,css,cpp" />
+<img src="https://skillicons.dev/icons?i=python,js,ts,java,c,cpp" />
 
 **Frontend**
 
@@ -362,6 +364,10 @@ Retrieval-Augmented Generation · AI orchestration & intent routing · LLM-as-ju
 
 <div align="center">
 
+<img src="https://github-profile-trophy.vercel.app/?username=Nagukore&theme=tokyonight&no-frame=true&row=1&column=6" width="95%" />
+
+<br/>
+
 <img height="170" src="https://github-readme-stats.vercel.app/api?username=Nagukore&show_icons=true&theme=tokyonight&hide_border=true&border_radius=15" />
 <img height="170" src="https://github-readme-streak-stats.herokuapp.com/?user=Nagukore&theme=tokyonight&hide_border=true&border_radius=15" />
 
@@ -382,7 +388,7 @@ Retrieval-Augmented Generation · AI orchestration & intent routing · LLM-as-ju
 [![Portfolio](https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=vercel&logoColor=white)](https://nageshs.netlify.app/)
 [![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/the.nagesh)
 
-📧 nagesh.amcec@gmail.com
+[![Email](https://img.shields.io/badge/Email-nagesh.amcec%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:nagesh.amcec@gmail.com)
 
 **Open to:** open-source collaboration · AI engineering projects · freelance development · startup engineering opportunities
 
