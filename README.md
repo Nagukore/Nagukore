@@ -116,7 +116,7 @@ I build systems where the AI layer has to survive contact with real users and re
 ## Featured Engineering Systems
 
 <details>
-<summary><h3>⭐ FOSYS — AI Workflow Automation & SCRUM Intelligence Platform 🏆 Best Paper Winner, IC-AISMART 2025 · 💰 Funded by KCSTC (Govt. of Karnataka)</h3></summary>
+<summary><strong>⭐ FOSYS — AI Workflow Automation & SCRUM Intelligence Platform 🏆 Best Paper Winner, IC-AISMART 2025 · 💰 Funded by KCSTC (Govt. of Karnataka)</strong></summary>
 
 Production-oriented AI orchestration platform automating SCRUM workflows, meeting intelligence, and task coordination across teams. Selected for funding by the **Karnataka State Council for Science and Technology (KCSTC)**, and published in the **Grenze International Journal** — [read the paper](https://thegrenze.com/abstract/journal/7548).
 
@@ -143,7 +143,7 @@ flowchart LR
 </details>
 
 <details>
-<summary><h3>⭐ SS Clinic — AI-Integrated Healthcare Website (First Production Client Delivery)</h3></summary>
+<summary><strong>⭐ SS Clinic — AI-Integrated Healthcare Website (First Production Client Delivery)</strong></summary>
 
 My first end-to-end full-stack production deployment — delivered to a real healthcare client. Patient-facing platform for SS Clinic, Kudlu.
 
@@ -162,7 +162,7 @@ My first end-to-end full-stack production deployment — delivered to a real hea
 </details>
 
 <details>
-<summary><h3>⭐ AI YouTube Automation System — Self-Improving Content Pipeline (LangGraph)</h3></summary>
+<summary><strong>⭐ AI YouTube Automation System — Self-Improving Content Pipeline (LangGraph)</strong></summary>
 
 A production-grade system that runs a YouTube Shorts channel end to end — discovers topics, writes and quality-gates scripts, generates images/voiceover/subtitles/video, uploads, and **learns from real engagement data** to improve the next run. Human-in-the-loop by design: every upload defaults to private until a human approves it.
 
@@ -194,7 +194,7 @@ flowchart LR
 ## Core Engineering Projects
 
 <details>
-<summary><h3>i. VoxFlow — Voice-First AI Assistant</h3></summary>
+<summary><strong>i. VoxFlow — Voice-First AI Assistant</strong></summary>
 
 Multi-stage AI assistant with intelligent intent routing and long-term memory architecture.
 
@@ -221,7 +221,7 @@ flowchart LR
 </details>
 
 <details>
-<summary><h3>ii. Enterprise RAG System — Retrieval-Augmented Knowledge Platform</h3></summary>
+<summary><strong>ii. Enterprise RAG System — Retrieval-Augmented Knowledge Platform</strong></summary>
 
 Production-oriented semantic retrieval system for structured and unstructured enterprise knowledge bases.
 
@@ -242,7 +242,7 @@ flowchart LR
 </details>
 
 <details>
-<summary><h3>iii. Clinichealthtree — Production Healthcare Infrastructure</h3></summary>
+<summary><strong>iii. Clinichealthtree — Production Healthcare Infrastructure</strong></summary>
 
 End-to-end clinic management platform: appointment scheduling, JWT auth, role-based dashboards (admin/doctor/patient), realtime updates via Firebase.
 
@@ -252,7 +252,7 @@ End-to-end clinic management platform: appointment scheduling, JWT auth, role-ba
 </details>
 
 <details>
-<summary><h3>iv. Siddeshwara Global Services — Business Platform + E-Commerce</h3></summary>
+<summary><strong>iv. Siddeshwara Global Services — Business Platform + E-Commerce</strong></summary>
 
 Multi-page production platform for a Bangalore-based cleaning products supplier, with a full e-commerce storefront: catalog, browsing, ordering, and Google Maps location integration.
 
@@ -262,7 +262,7 @@ Multi-page production platform for a Bangalore-based cleaning products supplier,
 </details>
 
 <details>
-<summary><h3>v. Virtual AI Mouse — Gesture-Controlled Contactless Mouse (Published Research)</h3></summary>
+<summary><strong>v. Virtual AI Mouse — Gesture-Controlled Contactless Mouse (Published Research)</strong></summary>
 
 Real-time gesture-controlled virtual mouse using computer vision and hand tracking — no hardware beyond a webcam.
 
@@ -274,7 +274,7 @@ Real-time gesture-controlled virtual mouse using computer vision and hand tracki
 </details>
 
 <details>
-<summary><h3>vi. Advanced Book Scraper CLI — Multithreaded Web Scraping Tool</h3></summary>
+<summary><strong>vi. Advanced Book Scraper CLI — Multithreaded Web Scraping Tool</strong></summary>
 
 High-performance concurrent CLI scraper with retry strategies, filtering, and analytics export.
 
@@ -286,7 +286,7 @@ High-performance concurrent CLI scraper with retry strategies, filtering, and an
 </details>
 
 <details>
-<summary><h3>vii. Hunt the Wumpus — Browser Game (Built in Under 4 Minutes, One Prompt)</h3></summary>
+<summary><strong>vii. Hunt the Wumpus — Browser Game (Built in Under 4 Minutes, One Prompt)</strong></summary>
 
 A rapid AI-prototyping experiment: a complete cave exploration game generated from a single, precisely-scoped prompt — no iteration loop, deployed the same session. A small proof of concept that clear problem framing multiplies AI leverage.
 
