@@ -6,18 +6,32 @@
 
 Building AI-integrated platforms, realtime systems, automation pipelines, and production-ready applications.
 
+<table>
+<tr><td align="center">
+
 ![Production Systems](https://img.shields.io/badge/Production_Systems-1D9E75?style=for-the-badge)
 ![AI Engineer](https://img.shields.io/badge/AI_Integrated_Development-0A66C2?style=for-the-badge)
 ![Realtime Systems](https://img.shields.io/badge/Realtime_Infrastructure-7F77DD?style=for-the-badge)
+
+</td></tr>
+<tr><td align="center">
+
 ![Award Winning](https://img.shields.io/badge/🏆_Award--Winning-FFB800?style=for-the-badge&labelColor=1a1a1a)
 ![Govt Funded](https://img.shields.io/badge/💰_Govt--Funded_Researcher-1D9E75?style=for-the-badge&labelColor=1a1a1a)
 
-<br/>
+</td></tr>
+</table>
+
+<table>
+<tr><td align="center">
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/nagesh-kore-7566b6254)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Nagukore)
 [![Portfolio](https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=vercel&logoColor=white)](https://nageshs.netlify.app/)
 [![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/the.nagesh)
+
+</td></tr>
+</table>
 
 **[About](#about-me) · [Recognition](#recognition) · [What I Solve](#what-i-solve) · [Featured Systems](#featured-engineering-systems) · [Projects](#core-engineering-projects) · [Stack](#tech-stack) · [Deployments](#production-deployments) · [Connect](#connect)**
 
@@ -383,12 +397,21 @@ Retrieval-Augmented Generation · AI orchestration & intent routing · LLM-as-ju
 
 <div align="center">
 
+<table>
+<tr><td align="center">
+
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/nagesh-kore-7566b6254)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Nagukore)
 [![Portfolio](https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=vercel&logoColor=white)](https://nageshs.netlify.app/)
 [![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/the.nagesh)
 
+</td></tr>
+<tr><td align="center">
+
 [![Email](https://img.shields.io/badge/Email-nagesh.amcec%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:nagesh.amcec@gmail.com)
+
+</td></tr>
+</table>
 
 **Open to:** open-source collaboration · AI engineering projects · freelance development · startup engineering opportunities
 
