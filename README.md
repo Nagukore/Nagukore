@@ -27,7 +27,7 @@ Building AI-integrated platforms, realtime systems, automation pipelines, and pr
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/nagesh-kore-7566b6254)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Nagukore)
-[![Portfolio](https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=vercel&logoColor=white)](https://nageshs.netlify.app/)
+[![Portfolio](https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=vercel&logoColor=white)](https://nageshs.vercel.app/)
 [![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/the.nagesh)
 
 </td></tr>
@@ -356,7 +356,7 @@ Retrieval-Augmented Generation · AI orchestration & intent routing · LLM-as-ju
 
 | Platform | Type | Live Link | Status |
 |---|---|---|---|
-| Personal Portfolio | Developer Portfolio + NagiBot | [nageshs.netlify.app](https://nageshs.vercel.app/) | ✅ Production |
+| Personal Portfolio | Developer Portfolio + NagiBot | [nageshs.vercel.app](https://nageshs.vercel.app/) | ✅ Production |
 | SS Clinic | AI Healthcare Website (Client) | [ssclinickudlu.com](https://www.ssclinickudlu.com) | ✅ Production |
 | Clinichealthtree | Full-Stack Healthcare Platform | [cliniquehealthtree.com](https://www.cliniquehealthtree.com) | ✅ Production |
 | Siddeshwara Global Services | Business Platform + E-Commerce | [siddeshwaraglobalservices.com](https://www.siddeshwaraglobalservices.com) | ✅ Production |
@@ -409,7 +409,7 @@ Retrieval-Augmented Generation · AI orchestration & intent routing · LLM-as-ju
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/nagesh-kore-7566b6254)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Nagukore)
-[![Portfolio](https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=vercel&logoColor=white)](https://nageshs.netlify.app/)
+[![Portfolio](https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=vercel&logoColor=white)](https://nageshs.vercel.app/)
 [![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/the.nagesh)
 
 </td></tr>
