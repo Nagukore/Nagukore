@@ -356,7 +356,7 @@ Retrieval-Augmented Generation · AI orchestration & intent routing · LLM-as-ju
 
 | Platform | Type | Live Link | Status |
 |---|---|---|---|
-| Personal Portfolio | Developer Portfolio + NagiBot | [nageshs.netlify.app](https://nageshs.netlify.app/) | ✅ Production |
+| Personal Portfolio | Developer Portfolio + NagiBot | [nageshs.netlify.app](https://nageshs.vercel.app/) | ✅ Production |
 | SS Clinic | AI Healthcare Website (Client) | [ssclinickudlu.com](https://www.ssclinickudlu.com) | ✅ Production |
 | Clinichealthtree | Full-Stack Healthcare Platform | [cliniquehealthtree.com](https://www.cliniquehealthtree.com) | ✅ Production |
 | Siddeshwara Global Services | Business Platform + E-Commerce | [siddeshwaraglobalservices.com](https://www.siddeshwaraglobalservices.com) | ✅ Production |
