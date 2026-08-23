@@ -39,6 +39,9 @@ Building AI-integrated platforms, realtime systems, automation pipelines, and pr
 
 **Open to:** `AI Engineering` · `Software Development` · `Product Engineering` · `Research Collaborations`
 
+![Profile Views](https://komarev.com/ghpvc/?username=Nagukore&color=0A66C2&style=for-the-badge&label=PROFILE+VIEWS)
+![GitHub Followers](https://img.shields.io/github/followers/Nagukore?style=for-the-badge&color=0A66C2&label=Followers&logo=github)
+
 </div>
 
 ---
@@ -384,6 +387,10 @@ Retrieval-Augmented Generation · AI orchestration & intent routing · LLM-as-ju
 
 <img height="170" src="https://github-readme-stats.vercel.app/api?username=Nagukore&show_icons=true&theme=tokyonight&hide_border=true&border_radius=15" />
 <img height="170" src="https://streak-stats.demolab.com/?user=Nagukore&theme=tokyonight&hide_border=true&border_radius=15" />
+
+<br/><br/>
+
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Nagukore&layout=compact&theme=tokyonight&hide_border=true" />
 
 <br/><br/>
 
