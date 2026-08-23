@@ -110,7 +110,7 @@ I build systems where the AI layer has to survive contact with real users and re
 
 > Single-page portfolio with a built-in AI chatbot (NagiBot), glassmorphism animations, dynamic project modals, and a dark-mode aesthetic — React + TypeScript + Vite.
 
-**Live:** [nageshs.netlify.app](https://nageshs.netlify.app/) · **Repo:** [Nagesh-portfolio](https://github.com/Nagukore/Nagesh-portfolio)
+**Live:** [nageshs.vercel.app](https://nageshs.vercel.app/) · **Repo:** [Nagesh-portfolio](https://github.com/Nagukore/Nagesh-portfolio)
 
 `React 18` `TypeScript` `Vite` `Custom CSS Animations` `Glassmorphism`
 
