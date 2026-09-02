@@ -381,20 +381,20 @@ Retrieval-Augmented Generation · AI orchestration & intent routing · LLM-as-ju
 
 <div align="center">
 
-<img src="https://github-profile-trophy.vercel.app/?username=Nagukore&theme=tokyonight&no-frame=true&row=1&column=6" width="95%" />
+<img src="https://github-profile-trophy.vercel.app/?username=Nagukore&theme=tokyonight&no-frame=true&row=1&column=6&margin-w=8&margin-h=8" width="95%" />
 
 <br/>
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=Nagukore&show_icons=true&theme=tokyonight&hide_border=true&border_radius=15" />
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=Nagukore&show_icons=true&theme=tokyonight&hide_border=true&border_radius=15&cache_seconds=86400" />
 <img height="170" src="https://streak-stats.demolab.com/?user=Nagukore&theme=tokyonight&hide_border=true&border_radius=15" />
 
 <br/><br/>
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Nagukore&layout=compact&theme=tokyonight&hide_border=true" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Nagukore&layout=compact&theme=tokyonight&hide_border=true&cache_seconds=86400" />
 
 <br/><br/>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Nagukore&theme=tokyo-night&hide_border=true&radius=16" width="95%" />
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Nagukore&theme=tokyo-night&hide_border=true&radius=16&cache_seconds=86400" width="95%" />
 
 </div>
 
