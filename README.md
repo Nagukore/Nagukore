@@ -389,11 +389,6 @@ Retrieval-Augmented Generation · AI orchestration & intent routing · LLM-as-ju
 
 <br/><br/>
 
-<br/><br/>
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Nagukore&theme=tokyo-night&hide_border=true&radius=16&cache_seconds=86400" width="95%" />
-
-</div>
 
 ---
 
