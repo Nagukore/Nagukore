@@ -381,7 +381,6 @@ Retrieval-Augmented Generation · AI orchestration & intent routing · LLM-as-ju
 
 <div align="center">
 
-<img src="https://github-profile-trophy.vercel.app/?username=Nagukore&theme=tokyonight&no-frame=true&row=1&column=6&margin-w=8&margin-h=8" width="95%" />
 
 <br/>
 
@@ -389,8 +388,6 @@ Retrieval-Augmented Generation · AI orchestration & intent routing · LLM-as-ju
 <img height="170" src="https://streak-stats.demolab.com/?user=Nagukore&theme=tokyonight&hide_border=true&border_radius=15" />
 
 <br/><br/>
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Nagukore&layout=compact&theme=tokyonight&hide_border=true&cache_seconds=86400" />
 
 <br/><br/>
 
